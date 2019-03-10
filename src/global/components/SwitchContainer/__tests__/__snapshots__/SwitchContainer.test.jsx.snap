@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwitchContainer should render the component correctly with no option selected 1`] = `
+<div
+  className="SwitchContainer MySwitchContainer"
+>
+  <div
+    className="SwitchContainer__options MySwitchContainer__options"
+  >
+    <div
+      className="SwitchContainer__option MySwitchContainer__option "
+      key="1"
+    >
+      <label
+        className="SwitchContainer__label MySwitchContainer__label"
+      >
+        <input
+          checked={false}
+          className="SwitchContainer__input MySwitchContainer__input"
+          id="1"
+          onChange={[Function]}
+          type="radio"
+          value="1"
+        />
+        Hi
+      </label>
+    </div>
+    <div
+      className="SwitchContainer__option MySwitchContainer__option "
+      key="2"
+    >
+      <label
+        className="SwitchContainer__label MySwitchContainer__label"
+      >
+        <input
+          checked={false}
+          className="SwitchContainer__input MySwitchContainer__input"
+          id="2"
+          onChange={[Function]}
+          type="radio"
+          value="2"
+        />
+        Ciao
+      </label>
+    </div>
+  </div>
+  <div
+    className="SwitchContainer__children MySwitchContainer__children"
+  />
+</div>
+`;
+
+exports[`SwitchContainer should render the component correctly with option 1 selected and h1 Hi component rendered 1`] = `
+<div
+  className="SwitchContainer MySwitchContainer"
+>
+  <div
+    className="SwitchContainer__options MySwitchContainer__options"
+  >
+    <div
+      className="SwitchContainer__option MySwitchContainer__option SwitchContainer__selected MySwitchContainer__selected"
+      key="1"
+    >
+      <label
+        className="SwitchContainer__label MySwitchContainer__label"
+      >
+        <input
+          checked={true}
+          className="SwitchContainer__input MySwitchContainer__input"
+          id="1"
+          onChange={[Function]}
+          type="radio"
+          value="1"
+        />
+        Hi
+      </label>
+    </div>
+    <div
+      className="SwitchContainer__option MySwitchContainer__option "
+      key="2"
+    >
+      <label
+        className="SwitchContainer__label MySwitchContainer__label"
+      >
+        <input
+          checked={false}
+          className="SwitchContainer__input MySwitchContainer__input"
+          id="2"
+          onChange={[Function]}
+          type="radio"
+          value="2"
+        />
+        Ciao
+      </label>
+    </div>
+  </div>
+  <div
+    className="SwitchContainer__children MySwitchContainer__children"
+  >
+    <h1
+      key="1"
+    >
+      Hi
+    </h1>
+  </div>
+</div>
+`;

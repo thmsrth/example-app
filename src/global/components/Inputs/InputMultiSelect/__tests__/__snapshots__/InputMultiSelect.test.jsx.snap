@@ -1,0 +1,985 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputMultiSelect should render the component as a required input 1`] = `
+<div
+  className="InputMultiSelect MyInputMultiSelect InputMultiSelect__MyInputName MyInputMultiSelect__MyInputName InputMultiSelect__required MyInputMultiSelect__required InputMultiSelect--alert MyInputMultiSelect--alert"
+>
+  <label
+    className="InputMultiSelect__label MyInputMultiSelect__label MyInputMultiSelect__MyInputName__label "
+    key="MyInputName"
+  >
+    My Input Label*
+    <div
+      className="InputMultiSelect__alertMsg MyInputMultiSelect__alertMsg InputMultiSelect__MyInputName__alertMsg MyInputMultiSelect__MyInputName__alertMsg"
+    />
+    <div
+      className="InputMultiSelect__input MyInputMultiSelect__input  "
+    >
+      <Select
+        arrowRenderer={[Function]}
+        autosize={true}
+        backspaceRemoves={true}
+        backspaceToRemoveMessage="Press backspace to remove {label}"
+        className="InputMultiSelect__select MyInputMultiSelect__select InputMultiSelect__select--alert MyInputMultiSelect__select--alert"
+        clearAllText="Clear all"
+        clearRenderer={[Function]}
+        clearValueText="Clear value"
+        clearable={false}
+        closeOnSelect={true}
+        deleteRemoves={true}
+        delimiter=","
+        disabled={false}
+        escapeClearsValue={true}
+        filterOptions={[Function]}
+        ignoreAccents={true}
+        ignoreCase={true}
+        inputProps={Object {}}
+        isLoading={false}
+        joinValues={false}
+        labelKey="label"
+        matchPos="any"
+        matchProp="any"
+        menuBuffer={0}
+        menuRenderer={[Function]}
+        multi={true}
+        name="MyInputName"
+        noResultsText="No results found"
+        onBlur={[Function]}
+        onBlurResetsInput={true}
+        onChange={[Function]}
+        onCloseResetsInput={true}
+        onFocus={[Function]}
+        onSelectResetsInput={true}
+        openOnClick={true}
+        optionComponent={[Function]}
+        options={
+          Array [
+            Object {
+              "label": "First Value",
+              "value": "first_value",
+            },
+            Object {
+              "label": "Second Value",
+              "value": "second_value",
+            },
+          ]
+        }
+        pageSize={5}
+        placeholder="Nothing selected"
+        removeSelected={true}
+        required={true}
+        rtl={false}
+        scrollMenuIntoView={true}
+        searchable={false}
+        simpleValue={false}
+        tabSelectsValue={true}
+        trimFilter={true}
+        value={
+          Array [
+            "first_value",
+          ]
+        }
+        valueComponent={[Function]}
+        valueKey="value"
+      />
+    </div>
+    <div
+      className="InputMultiSelect__warningMsg MyInputMultiSelect__warningMsg InputMultiSelect__MyInputName__warningMsg MyInputMultiSelect__MyInputName__warningMsg"
+    />
+  </label>
+</div>
+`;
+
+exports[`InputMultiSelect should render the component as a required input 2`] = `
+<div
+  className="InputMultiSelect MyInputMultiSelect InputMultiSelect__MyInputName MyInputMultiSelect__MyInputName InputMultiSelect__required MyInputMultiSelect__required InputMultiSelect--alert MyInputMultiSelect--alert"
+>
+  <label
+    className="InputMultiSelect__label MyInputMultiSelect__label MyInputMultiSelect__MyInputName__label "
+    key="MyInputName"
+  >
+    My Input Label*
+    <div
+      className="InputMultiSelect__alertMsg MyInputMultiSelect__alertMsg InputMultiSelect__MyInputName__alertMsg MyInputMultiSelect__MyInputName__alertMsg"
+    />
+    <div
+      className="InputMultiSelect__input MyInputMultiSelect__input  "
+    >
+      <Select
+        arrowRenderer={[Function]}
+        autosize={true}
+        backspaceRemoves={true}
+        backspaceToRemoveMessage="Press backspace to remove {label}"
+        className="InputMultiSelect__select MyInputMultiSelect__select InputMultiSelect__select--alert MyInputMultiSelect__select--alert"
+        clearAllText="Clear all"
+        clearRenderer={[Function]}
+        clearValueText="Clear value"
+        clearable={false}
+        closeOnSelect={true}
+        deleteRemoves={true}
+        delimiter=","
+        disabled={false}
+        escapeClearsValue={true}
+        filterOptions={[Function]}
+        ignoreAccents={true}
+        ignoreCase={true}
+        inputProps={Object {}}
+        isLoading={false}
+        joinValues={false}
+        labelKey="label"
+        matchPos="any"
+        matchProp="any"
+        menuBuffer={0}
+        menuRenderer={[Function]}
+        multi={true}
+        name="MyInputName"
+        noResultsText="No results found"
+        onBlur={[Function]}
+        onBlurResetsInput={true}
+        onChange={[Function]}
+        onCloseResetsInput={true}
+        onFocus={[Function]}
+        onSelectResetsInput={true}
+        openOnClick={true}
+        optionComponent={[Function]}
+        options={
+          Array [
+            Object {
+              "label": "First Value",
+              "value": "first_value",
+            },
+            Object {
+              "label": "Second Value",
+              "value": "second_value",
+            },
+          ]
+        }
+        pageSize={5}
+        placeholder="Nothing selected"
+        removeSelected={true}
+        required={true}
+        rtl={false}
+        scrollMenuIntoView={true}
+        searchable={false}
+        simpleValue={false}
+        tabSelectsValue={true}
+        trimFilter={true}
+        value={
+          Array [
+            "first_value",
+          ]
+        }
+        valueComponent={[Function]}
+        valueKey="value"
+      />
+    </div>
+    <div
+      className="InputMultiSelect__warningMsg MyInputMultiSelect__warningMsg InputMultiSelect__MyInputName__warningMsg MyInputMultiSelect__MyInputName__warningMsg"
+    />
+  </label>
+</div>
+`;
+
+exports[`InputMultiSelect should render the component with a validation alert message 1`] = `
+<div
+  className="InputMultiSelect MyInputMultiSelect InputMultiSelect__MyInputName MyInputMultiSelect__MyInputName InputMultiSelect__required MyInputMultiSelect__required InputMultiSelect--alert MyInputMultiSelect--alert"
+>
+  <label
+    className="InputMultiSelect__label MyInputMultiSelect__label MyInputMultiSelect__MyInputName__label "
+    key="MyInputName"
+  >
+    My Input Label
+    <div
+      className="InputMultiSelect__alertMsg MyInputMultiSelect__alertMsg InputMultiSelect__MyInputName__alertMsg MyInputMultiSelect__MyInputName__alertMsg"
+    >
+      My validation alert message
+    </div>
+    <div
+      className="InputMultiSelect__input MyInputMultiSelect__input  "
+    >
+      <Select
+        arrowRenderer={[Function]}
+        autosize={true}
+        backspaceRemoves={true}
+        backspaceToRemoveMessage="Press backspace to remove {label}"
+        className="InputMultiSelect__select MyInputMultiSelect__select InputMultiSelect__select--alert MyInputMultiSelect__select--alert"
+        clearAllText="Clear all"
+        clearRenderer={[Function]}
+        clearValueText="Clear value"
+        clearable={false}
+        closeOnSelect={true}
+        deleteRemoves={true}
+        delimiter=","
+        disabled={false}
+        escapeClearsValue={true}
+        filterOptions={[Function]}
+        ignoreAccents={true}
+        ignoreCase={true}
+        inputProps={Object {}}
+        isLoading={false}
+        joinValues={false}
+        labelKey="label"
+        matchPos="any"
+        matchProp="any"
+        menuBuffer={0}
+        menuRenderer={[Function]}
+        multi={true}
+        name="MyInputName"
+        noResultsText="No results found"
+        onBlur={[Function]}
+        onBlurResetsInput={true}
+        onChange={[Function]}
+        onCloseResetsInput={true}
+        onFocus={[Function]}
+        onSelectResetsInput={true}
+        openOnClick={true}
+        optionComponent={[Function]}
+        options={
+          Array [
+            Object {
+              "label": "First Value",
+              "value": "first_value",
+            },
+            Object {
+              "label": "Second Value",
+              "value": "second_value",
+            },
+          ]
+        }
+        pageSize={5}
+        placeholder="Nothing selected"
+        removeSelected={true}
+        required={false}
+        rtl={false}
+        scrollMenuIntoView={true}
+        searchable={false}
+        simpleValue={false}
+        tabSelectsValue={true}
+        trimFilter={true}
+        value={
+          Array [
+            "first_value",
+          ]
+        }
+        valueComponent={[Function]}
+        valueKey="value"
+      />
+    </div>
+    <div
+      className="InputMultiSelect__warningMsg MyInputMultiSelect__warningMsg InputMultiSelect__MyInputName__warningMsg MyInputMultiSelect__MyInputName__warningMsg"
+    />
+  </label>
+</div>
+`;
+
+exports[`InputMultiSelect should render the component with a warning message 1`] = `
+<div
+  className="InputMultiSelect MyInputMultiSelect InputMultiSelect__MyInputName MyInputMultiSelect__MyInputName InputMultiSelect__required MyInputMultiSelect__required InputMultiSelect--alert MyInputMultiSelect--alert"
+>
+  <label
+    className="InputMultiSelect__label MyInputMultiSelect__label MyInputMultiSelect__MyInputName__label "
+    key="MyInputName"
+  >
+    My Input Label
+    <div
+      className="InputMultiSelect__alertMsg MyInputMultiSelect__alertMsg InputMultiSelect__MyInputName__alertMsg MyInputMultiSelect__MyInputName__alertMsg"
+    />
+    <div
+      className="InputMultiSelect__input MyInputMultiSelect__input  "
+    >
+      <Select
+        arrowRenderer={[Function]}
+        autosize={true}
+        backspaceRemoves={true}
+        backspaceToRemoveMessage="Press backspace to remove {label}"
+        className="InputMultiSelect__select MyInputMultiSelect__select InputMultiSelect__select--alert MyInputMultiSelect__select--alert"
+        clearAllText="Clear all"
+        clearRenderer={[Function]}
+        clearValueText="Clear value"
+        clearable={false}
+        closeOnSelect={true}
+        deleteRemoves={true}
+        delimiter=","
+        disabled={false}
+        escapeClearsValue={true}
+        filterOptions={[Function]}
+        ignoreAccents={true}
+        ignoreCase={true}
+        inputProps={Object {}}
+        isLoading={false}
+        joinValues={false}
+        labelKey="label"
+        matchPos="any"
+        matchProp="any"
+        menuBuffer={0}
+        menuRenderer={[Function]}
+        multi={true}
+        name="MyInputName"
+        noResultsText="No results found"
+        onBlur={[Function]}
+        onBlurResetsInput={true}
+        onChange={[Function]}
+        onCloseResetsInput={true}
+        onFocus={[Function]}
+        onSelectResetsInput={true}
+        openOnClick={true}
+        optionComponent={[Function]}
+        options={
+          Array [
+            Object {
+              "label": "First Value",
+              "value": "first_value",
+            },
+            Object {
+              "label": "Second Value",
+              "value": "second_value",
+            },
+          ]
+        }
+        pageSize={5}
+        placeholder="Nothing selected"
+        removeSelected={true}
+        required={false}
+        rtl={false}
+        scrollMenuIntoView={true}
+        searchable={false}
+        simpleValue={false}
+        tabSelectsValue={true}
+        trimFilter={true}
+        value={
+          Array [
+            "first_value",
+          ]
+        }
+        valueComponent={[Function]}
+        valueKey="value"
+      />
+    </div>
+    <div
+      className="InputMultiSelect__warningMsg MyInputMultiSelect__warningMsg InputMultiSelect__MyInputName__warningMsg MyInputMultiSelect__MyInputName__warningMsg"
+    >
+      My warning message
+    </div>
+  </label>
+</div>
+`;
+
+exports[`InputMultiSelect should render the component with disabled classes while disabled 1`] = `
+<div
+  className="InputMultiSelect MyInputMultiSelect InputMultiSelect__MyInputName MyInputMultiSelect__MyInputName  "
+>
+  <label
+    className="InputMultiSelect__label MyInputMultiSelect__label MyInputMultiSelect__MyInputName__label InputMultiSelect__label--disabled MyInputMultiSelect__label--disabled MyInputMultiSelect__MyInputName__label--disabled"
+    key="MyInputName"
+  >
+    My Input Label
+    <div
+      className="InputMultiSelect__alertMsg MyInputMultiSelect__alertMsg InputMultiSelect__MyInputName__alertMsg MyInputMultiSelect__MyInputName__alertMsg"
+    />
+    <div
+      className="InputMultiSelect__input MyInputMultiSelect__input  InputMultiSelect__input--disabled MyInputMultiSelect__input--disabled"
+    >
+      <Select
+        arrowRenderer={[Function]}
+        autosize={true}
+        backspaceRemoves={true}
+        backspaceToRemoveMessage="Press backspace to remove {label}"
+        className="InputMultiSelect__select MyInputMultiSelect__select "
+        clearAllText="Clear all"
+        clearRenderer={[Function]}
+        clearValueText="Clear value"
+        clearable={false}
+        closeOnSelect={true}
+        deleteRemoves={true}
+        delimiter=","
+        disabled={true}
+        escapeClearsValue={true}
+        filterOptions={[Function]}
+        ignoreAccents={true}
+        ignoreCase={true}
+        inputProps={Object {}}
+        isLoading={false}
+        joinValues={false}
+        labelKey="label"
+        matchPos="any"
+        matchProp="any"
+        menuBuffer={0}
+        menuRenderer={[Function]}
+        multi={true}
+        name="MyInputName"
+        noResultsText="No results found"
+        onBlur={[Function]}
+        onBlurResetsInput={true}
+        onChange={[Function]}
+        onCloseResetsInput={true}
+        onFocus={[Function]}
+        onSelectResetsInput={true}
+        openOnClick={true}
+        optionComponent={[Function]}
+        options={
+          Array [
+            Object {
+              "label": "First Value",
+              "value": "first_value",
+            },
+            Object {
+              "label": "Second Value",
+              "value": "second_value",
+            },
+          ]
+        }
+        pageSize={5}
+        placeholder="Nothing selected"
+        removeSelected={true}
+        required={false}
+        rtl={false}
+        scrollMenuIntoView={true}
+        searchable={false}
+        simpleValue={false}
+        tabSelectsValue={true}
+        trimFilter={true}
+        value={
+          Array [
+            "first_value",
+          ]
+        }
+        valueComponent={[Function]}
+        valueKey="value"
+      />
+    </div>
+    <div
+      className="InputMultiSelect__warningMsg MyInputMultiSelect__warningMsg InputMultiSelect__MyInputName__warningMsg MyInputMultiSelect__MyInputName__warningMsg"
+    />
+  </label>
+</div>
+`;
+
+exports[`InputMultiSelect should render the component with first value 1`] = `
+<div
+  className="InputMultiSelect MyInputMultiSelect InputMultiSelect__MyInputName MyInputMultiSelect__MyInputName  "
+>
+  <label
+    className="InputMultiSelect__label MyInputMultiSelect__label MyInputMultiSelect__MyInputName__label "
+    key="MyInputName"
+  >
+    My Input Label
+    <div
+      className="InputMultiSelect__alertMsg MyInputMultiSelect__alertMsg InputMultiSelect__MyInputName__alertMsg MyInputMultiSelect__MyInputName__alertMsg"
+    />
+    <div
+      className="InputMultiSelect__input MyInputMultiSelect__input  "
+    >
+      <Select
+        arrowRenderer={[Function]}
+        autosize={true}
+        backspaceRemoves={true}
+        backspaceToRemoveMessage="Press backspace to remove {label}"
+        className="InputMultiSelect__select MyInputMultiSelect__select "
+        clearAllText="Clear all"
+        clearRenderer={[Function]}
+        clearValueText="Clear value"
+        clearable={false}
+        closeOnSelect={true}
+        deleteRemoves={true}
+        delimiter=","
+        disabled={false}
+        escapeClearsValue={true}
+        filterOptions={[Function]}
+        ignoreAccents={true}
+        ignoreCase={true}
+        inputProps={Object {}}
+        isLoading={false}
+        joinValues={false}
+        labelKey="label"
+        matchPos="any"
+        matchProp="any"
+        menuBuffer={0}
+        menuRenderer={[Function]}
+        multi={true}
+        name="MyInputName"
+        noResultsText="No results found"
+        onBlur={[Function]}
+        onBlurResetsInput={true}
+        onChange={[Function]}
+        onCloseResetsInput={true}
+        onFocus={[Function]}
+        onSelectResetsInput={true}
+        openOnClick={true}
+        optionComponent={[Function]}
+        options={
+          Array [
+            Object {
+              "label": "First Value",
+              "value": "first_value",
+            },
+            Object {
+              "label": "Second Value",
+              "value": "second_value",
+            },
+          ]
+        }
+        pageSize={5}
+        placeholder="Nothing selected"
+        removeSelected={true}
+        required={false}
+        rtl={false}
+        scrollMenuIntoView={true}
+        searchable={false}
+        simpleValue={false}
+        tabSelectsValue={true}
+        trimFilter={true}
+        value={
+          Array [
+            "first_value",
+          ]
+        }
+        valueComponent={[Function]}
+        valueKey="value"
+      />
+    </div>
+    <div
+      className="InputMultiSelect__warningMsg MyInputMultiSelect__warningMsg InputMultiSelect__MyInputName__warningMsg MyInputMultiSelect__MyInputName__warningMsg"
+    />
+  </label>
+</div>
+`;
+
+exports[`InputMultiSelect should render the component with focused classes while focused 1`] = `
+<div
+  className="InputMultiSelect MyInputMultiSelect InputMultiSelect__MyInputName MyInputMultiSelect__MyInputName  "
+>
+  <label
+    className="InputMultiSelect__label MyInputMultiSelect__label MyInputMultiSelect__MyInputName__label "
+    key="MyInputName"
+  >
+    My Input Label
+    <div
+      className="InputMultiSelect__alertMsg MyInputMultiSelect__alertMsg InputMultiSelect__MyInputName__alertMsg MyInputMultiSelect__MyInputName__alertMsg"
+    />
+    <div
+      className="InputMultiSelect__input MyInputMultiSelect__input InputMultiSelect__input--focused MyInputMultiSelect__input--focused "
+    >
+      <Select
+        arrowRenderer={[Function]}
+        autosize={true}
+        backspaceRemoves={true}
+        backspaceToRemoveMessage="Press backspace to remove {label}"
+        className="InputMultiSelect__select MyInputMultiSelect__select "
+        clearAllText="Clear all"
+        clearRenderer={[Function]}
+        clearValueText="Clear value"
+        clearable={false}
+        closeOnSelect={true}
+        deleteRemoves={true}
+        delimiter=","
+        disabled={false}
+        escapeClearsValue={true}
+        filterOptions={[Function]}
+        ignoreAccents={true}
+        ignoreCase={true}
+        inputProps={Object {}}
+        isLoading={false}
+        joinValues={false}
+        labelKey="label"
+        matchPos="any"
+        matchProp="any"
+        menuBuffer={0}
+        menuRenderer={[Function]}
+        multi={true}
+        name="MyInputName"
+        noResultsText="No results found"
+        onBlur={[Function]}
+        onBlurResetsInput={true}
+        onChange={[Function]}
+        onCloseResetsInput={true}
+        onFocus={[Function]}
+        onSelectResetsInput={true}
+        openOnClick={true}
+        optionComponent={[Function]}
+        options={
+          Array [
+            Object {
+              "label": "First Value",
+              "value": "first_value",
+            },
+            Object {
+              "label": "Second Value",
+              "value": "second_value",
+            },
+          ]
+        }
+        pageSize={5}
+        placeholder="Nothing selected"
+        removeSelected={true}
+        required={false}
+        rtl={false}
+        scrollMenuIntoView={true}
+        searchable={false}
+        simpleValue={false}
+        tabSelectsValue={true}
+        trimFilter={true}
+        value={
+          Array [
+            "first_value",
+          ]
+        }
+        valueComponent={[Function]}
+        valueKey="value"
+      />
+    </div>
+    <div
+      className="InputMultiSelect__warningMsg MyInputMultiSelect__warningMsg InputMultiSelect__MyInputName__warningMsg MyInputMultiSelect__MyInputName__warningMsg"
+    />
+  </label>
+</div>
+`;
+
+exports[`InputMultiSelect should render the component with is error message 1`] = `
+<div
+  className="InputMultiSelect MyInputMultiSelect InputMultiSelect__MyInputName MyInputMultiSelect__MyInputName  InputMultiSelect--alert MyInputMultiSelect--alert"
+>
+  <label
+    className="InputMultiSelect__label MyInputMultiSelect__label MyInputMultiSelect__MyInputName__label "
+    key="MyInputName"
+  >
+    My Input Label
+    <div
+      className="InputMultiSelect__alertMsg MyInputMultiSelect__alertMsg InputMultiSelect__MyInputName__alertMsg MyInputMultiSelect__MyInputName__alertMsg"
+    >
+      Error message
+    </div>
+    <div
+      className="InputMultiSelect__input MyInputMultiSelect__input  "
+    >
+      <Select
+        arrowRenderer={[Function]}
+        autosize={true}
+        backspaceRemoves={true}
+        backspaceToRemoveMessage="Press backspace to remove {label}"
+        className="InputMultiSelect__select MyInputMultiSelect__select InputMultiSelect__select--alert MyInputMultiSelect__select--alert"
+        clearAllText="Clear all"
+        clearRenderer={[Function]}
+        clearValueText="Clear value"
+        clearable={false}
+        closeOnSelect={true}
+        deleteRemoves={true}
+        delimiter=","
+        disabled={false}
+        escapeClearsValue={true}
+        filterOptions={[Function]}
+        ignoreAccents={true}
+        ignoreCase={true}
+        inputProps={Object {}}
+        isLoading={false}
+        joinValues={false}
+        labelKey="label"
+        matchPos="any"
+        matchProp="any"
+        menuBuffer={0}
+        menuRenderer={[Function]}
+        multi={true}
+        name="MyInputName"
+        noResultsText="No results found"
+        onBlur={[Function]}
+        onBlurResetsInput={true}
+        onChange={[Function]}
+        onCloseResetsInput={true}
+        onFocus={[Function]}
+        onSelectResetsInput={true}
+        openOnClick={true}
+        optionComponent={[Function]}
+        options={
+          Array [
+            Object {
+              "label": "First Value",
+              "value": "first_value",
+            },
+            Object {
+              "label": "Second Value",
+              "value": "second_value",
+            },
+          ]
+        }
+        pageSize={5}
+        placeholder="Nothing selected"
+        removeSelected={true}
+        required={false}
+        rtl={false}
+        scrollMenuIntoView={true}
+        searchable={false}
+        simpleValue={false}
+        tabSelectsValue={true}
+        trimFilter={true}
+        value={Array []}
+        valueComponent={[Function]}
+        valueKey="value"
+      />
+    </div>
+    <div
+      className="InputMultiSelect__warningMsg MyInputMultiSelect__warningMsg InputMultiSelect__MyInputName__warningMsg MyInputMultiSelect__MyInputName__warningMsg"
+    />
+  </label>
+</div>
+`;
+
+exports[`InputMultiSelect should render the component with is loading text 1`] = `
+<div
+  className="InputMultiSelect MyInputMultiSelect InputMultiSelect__MyInputName MyInputMultiSelect__MyInputName  "
+>
+  <label
+    className="InputMultiSelect__label MyInputMultiSelect__label MyInputMultiSelect__MyInputName__label "
+    key="MyInputName"
+  >
+    My Input Label
+    <div
+      className="InputMultiSelect__alertMsg MyInputMultiSelect__alertMsg InputMultiSelect__MyInputName__alertMsg MyInputMultiSelect__MyInputName__alertMsg"
+    />
+    <div
+      className="InputMultiSelect__input MyInputMultiSelect__input  "
+    >
+      <Select
+        arrowRenderer={[Function]}
+        autosize={true}
+        backspaceRemoves={true}
+        backspaceToRemoveMessage="Press backspace to remove {label}"
+        className="InputMultiSelect__select MyInputMultiSelect__select "
+        clearAllText="Clear all"
+        clearRenderer={[Function]}
+        clearValueText="Clear value"
+        clearable={false}
+        closeOnSelect={true}
+        deleteRemoves={true}
+        delimiter=","
+        disabled={false}
+        escapeClearsValue={true}
+        filterOptions={[Function]}
+        ignoreAccents={true}
+        ignoreCase={true}
+        inputProps={Object {}}
+        isLoading={true}
+        joinValues={false}
+        labelKey="label"
+        matchPos="any"
+        matchProp="any"
+        menuBuffer={0}
+        menuRenderer={[Function]}
+        multi={true}
+        name="MyInputName"
+        noResultsText="No results found"
+        onBlur={[Function]}
+        onBlurResetsInput={true}
+        onChange={[Function]}
+        onCloseResetsInput={true}
+        onFocus={[Function]}
+        onSelectResetsInput={true}
+        openOnClick={true}
+        optionComponent={[Function]}
+        options={
+          Array [
+            Object {
+              "label": "First Value",
+              "value": "first_value",
+            },
+            Object {
+              "label": "Second Value",
+              "value": "second_value",
+            },
+          ]
+        }
+        pageSize={5}
+        placeholder="Is loading ..."
+        removeSelected={true}
+        required={false}
+        rtl={false}
+        scrollMenuIntoView={true}
+        searchable={false}
+        simpleValue={false}
+        tabSelectsValue={true}
+        trimFilter={true}
+        value={Array []}
+        valueComponent={[Function]}
+        valueKey="value"
+      />
+    </div>
+    <div
+      className="InputMultiSelect__warningMsg MyInputMultiSelect__warningMsg InputMultiSelect__MyInputName__warningMsg MyInputMultiSelect__MyInputName__warningMsg"
+    />
+  </label>
+</div>
+`;
+
+exports[`InputMultiSelect should render the component with nothing selected 1`] = `
+<div
+  className="InputMultiSelect MyInputMultiSelect InputMultiSelect__MyInputName MyInputMultiSelect__MyInputName  "
+>
+  <label
+    className="InputMultiSelect__label MyInputMultiSelect__label MyInputMultiSelect__MyInputName__label "
+    key="MyInputName"
+  >
+    My Input Label
+    <div
+      className="InputMultiSelect__alertMsg MyInputMultiSelect__alertMsg InputMultiSelect__MyInputName__alertMsg MyInputMultiSelect__MyInputName__alertMsg"
+    />
+    <div
+      className="InputMultiSelect__input MyInputMultiSelect__input  "
+    >
+      <Select
+        arrowRenderer={[Function]}
+        autosize={true}
+        backspaceRemoves={true}
+        backspaceToRemoveMessage="Press backspace to remove {label}"
+        className="InputMultiSelect__select MyInputMultiSelect__select "
+        clearAllText="Clear all"
+        clearRenderer={[Function]}
+        clearValueText="Clear value"
+        clearable={false}
+        closeOnSelect={true}
+        deleteRemoves={true}
+        delimiter=","
+        disabled={false}
+        escapeClearsValue={true}
+        filterOptions={[Function]}
+        ignoreAccents={true}
+        ignoreCase={true}
+        inputProps={Object {}}
+        isLoading={false}
+        joinValues={false}
+        labelKey="label"
+        matchPos="any"
+        matchProp="any"
+        menuBuffer={0}
+        menuRenderer={[Function]}
+        multi={true}
+        name="MyInputName"
+        noResultsText="No results found"
+        onBlur={[Function]}
+        onBlurResetsInput={true}
+        onChange={[Function]}
+        onCloseResetsInput={true}
+        onFocus={[Function]}
+        onSelectResetsInput={true}
+        openOnClick={true}
+        optionComponent={[Function]}
+        options={
+          Array [
+            Object {
+              "label": "First Value",
+              "value": "first_value",
+            },
+            Object {
+              "label": "Second Value",
+              "value": "second_value",
+            },
+          ]
+        }
+        pageSize={5}
+        placeholder="Nothing selected"
+        removeSelected={true}
+        required={false}
+        rtl={false}
+        scrollMenuIntoView={true}
+        searchable={false}
+        simpleValue={false}
+        tabSelectsValue={true}
+        trimFilter={true}
+        value={Array []}
+        valueComponent={[Function]}
+        valueKey="value"
+      />
+    </div>
+    <div
+      className="InputMultiSelect__warningMsg MyInputMultiSelect__warningMsg InputMultiSelect__MyInputName__warningMsg MyInputMultiSelect__MyInputName__warningMsg"
+    />
+  </label>
+</div>
+`;
+
+exports[`InputMultiSelect should render the component with second value 1`] = `
+<div
+  className="InputMultiSelect MyInputMultiSelect InputMultiSelect__MyInputName MyInputMultiSelect__MyInputName  "
+>
+  <label
+    className="InputMultiSelect__label MyInputMultiSelect__label MyInputMultiSelect__MyInputName__label "
+    key="MyInputName"
+  >
+    My Input Label
+    <div
+      className="InputMultiSelect__alertMsg MyInputMultiSelect__alertMsg InputMultiSelect__MyInputName__alertMsg MyInputMultiSelect__MyInputName__alertMsg"
+    />
+    <div
+      className="InputMultiSelect__input MyInputMultiSelect__input  "
+    >
+      <Select
+        arrowRenderer={[Function]}
+        autosize={true}
+        backspaceRemoves={true}
+        backspaceToRemoveMessage="Press backspace to remove {label}"
+        className="InputMultiSelect__select MyInputMultiSelect__select "
+        clearAllText="Clear all"
+        clearRenderer={[Function]}
+        clearValueText="Clear value"
+        clearable={false}
+        closeOnSelect={true}
+        deleteRemoves={true}
+        delimiter=","
+        disabled={false}
+        escapeClearsValue={true}
+        filterOptions={[Function]}
+        ignoreAccents={true}
+        ignoreCase={true}
+        inputProps={Object {}}
+        isLoading={false}
+        joinValues={false}
+        labelKey="label"
+        matchPos="any"
+        matchProp="any"
+        menuBuffer={0}
+        menuRenderer={[Function]}
+        multi={true}
+        name="MyInputName"
+        noResultsText="No results found"
+        onBlur={[Function]}
+        onBlurResetsInput={true}
+        onChange={[Function]}
+        onCloseResetsInput={true}
+        onFocus={[Function]}
+        onSelectResetsInput={true}
+        openOnClick={true}
+        optionComponent={[Function]}
+        options={
+          Array [
+            Object {
+              "label": "First Value",
+              "value": "first_value",
+            },
+            Object {
+              "label": "Second Value",
+              "value": "second_value",
+            },
+          ]
+        }
+        pageSize={5}
+        placeholder="Nothing selected"
+        removeSelected={true}
+        required={false}
+        rtl={false}
+        scrollMenuIntoView={true}
+        searchable={false}
+        simpleValue={false}
+        tabSelectsValue={true}
+        trimFilter={true}
+        value={
+          Array [
+            "second_value",
+          ]
+        }
+        valueComponent={[Function]}
+        valueKey="value"
+      />
+    </div>
+    <div
+      className="InputMultiSelect__warningMsg MyInputMultiSelect__warningMsg InputMultiSelect__MyInputName__warningMsg MyInputMultiSelect__MyInputName__warningMsg"
+    />
+  </label>
+</div>
+`;

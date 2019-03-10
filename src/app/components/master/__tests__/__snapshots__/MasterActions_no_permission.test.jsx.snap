@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MasterActions should render the component correctly with disabled create button 1`] = `
+<div
+  className="MasterActions"
+>
+  <div
+    className="MasterActions__container"
+  >
+    <ButtonWrapper
+      className="MasterActions__button"
+      disabled={true}
+      iconName="plus"
+      onClick={[Function]}
+      params={Object {}}
+      text="Add"
+    />
+  </div>
+</div>
+`;

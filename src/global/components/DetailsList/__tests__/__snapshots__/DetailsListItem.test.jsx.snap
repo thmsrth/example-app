@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailsListItem should render the component correctly 1`] = `
+<tr
+  className="DetailsListItem "
+  tabIndex="0"
+>
+  <td
+    className="DetailsListItem__title __title"
+  >
+    Description:
+  </td>
+  <td
+    className="DetailsListItem__value __value"
+  >
+    <DetailsListItemValue
+      className="Value"
+      keyProp={
+        Object {
+          "name": "description",
+          "title": "Description:",
+          "type": "text",
+        }
+      }
+      value="huhu"
+    />
+  </td>
+</tr>
+`;

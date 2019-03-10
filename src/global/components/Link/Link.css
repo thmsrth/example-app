@@ -1,0 +1,7 @@
+.Link:hover {
+  cursor: pointer;
+}
+
+.Link--disabled:hover {
+  cursor: not-allowed;
+}

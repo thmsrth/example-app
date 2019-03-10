@@ -1,0 +1,18 @@
+:root {
+  /** Colors **/
+  --color-transparent: rgba(0, 0, 0, 0); /* transparent */
+  --color-white: #fff;
+  --color-black: #333;
+  --color-dark-grey: #666;
+  --color-grey: #999;
+  --color-light-grey: #d3d3d3;
+  --color-extra-light-grey: #f4f4f4;
+
+  --color-brand-primary: rgba(0, 84, 154, 1); /* blue-green */
+  --color-brand-secondary: rgba(237, 239, 246, 1); /* light purple */
+
+  --color-red: rgba(202, 29, 48, 1);
+  --color-orange: rgba(218, 169, 32, 1);
+  --color-green: rgba(61, 125, 81, 1);
+  --color-blue: rgba(0, 84, 154, 1);
+}

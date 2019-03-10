@@ -1,0 +1,17 @@
+.FilterSubmitButton {
+  background-color: var(--action-filter-background-color);
+}
+
+.FilterSubmitButton__icon,
+.FilterSubmitButton__text {
+  color: var(--action-submit-color);
+}
+
+.FilterSubmitButton--disabled {
+  background-color: var(--state-disabled-background-color);
+}
+
+.FilterSubmitButton--disabled .FilterSubmitButton__icon,
+.FilterSubmitButton--disabled .FilterSubmitButton__text {
+  color: var(--state-disabled-color);
+}

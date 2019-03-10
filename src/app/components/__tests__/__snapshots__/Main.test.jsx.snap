@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main should render a security error message 1`] = `
+<div
+  className="Main"
+>
+  <div
+    className="Main__container"
+  >
+    <Switch>
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/app/example/login"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/app/example/error401"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/app/example/error403"
+      />
+      <PrivateRouteContainer
+        component={[Function]}
+        exact={true}
+        path="/app/example/create"
+        permission="EXAMPLE_CREATE"
+        securityError="My Security Error Message"
+      />
+      <PrivateRouteContainer
+        component={[Function]}
+        exact={true}
+        path="/app/example/:id(\\\\d+)/edit"
+        permission="EXAMPLE_EDIT"
+        securityError="My Security Error Message"
+      />
+      <PrivateRouteContainer
+        component={[Function]}
+        exact={true}
+        path="/app/example/:id(\\\\d+)"
+        permission="EXAMPLE_DETAIL"
+        securityError="My Security Error Message"
+      />
+      <PrivateRouteContainer
+        component={[Function]}
+        exact={true}
+        path="/app/example"
+        permission="EXAMPLE_LIST"
+        securityError="My Security Error Message"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/register"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/deregister"
+      />
+      <Route
+        component={[Function]}
+        path="/"
+      />
+    </Switch>
+  </div>
+</div>
+`;
+
+exports[`Main should render the routes correctly 1`] = `
+<div
+  className="Main"
+>
+  <div
+    className="Main__container"
+  >
+    <Switch>
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/app/example/login"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/app/example/error401"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/app/example/error403"
+      />
+      <PrivateRouteContainer
+        component={[Function]}
+        exact={true}
+        path="/app/example/create"
+        permission="EXAMPLE_CREATE"
+        securityError=""
+      />
+      <PrivateRouteContainer
+        component={[Function]}
+        exact={true}
+        path="/app/example/:id(\\\\d+)/edit"
+        permission="EXAMPLE_EDIT"
+        securityError=""
+      />
+      <PrivateRouteContainer
+        component={[Function]}
+        exact={true}
+        path="/app/example/:id(\\\\d+)"
+        permission="EXAMPLE_DETAIL"
+        securityError=""
+      />
+      <PrivateRouteContainer
+        component={[Function]}
+        exact={true}
+        path="/app/example"
+        permission="EXAMPLE_LIST"
+        securityError=""
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/register"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/deregister"
+      />
+      <Route
+        component={[Function]}
+        path="/"
+      />
+    </Switch>
+  </div>
+</div>
+`;

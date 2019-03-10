@@ -1,0 +1,393 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputImage should render the component as a required input 1`] = `
+<DataStateNotifier
+  dataAdding=""
+  dataDeleting=""
+  dataError=""
+  dataLoading=""
+  dataUpdating=""
+  resetDataError={[Function]}
+>
+  <div
+    className="InputImage MyInputImage InputImage__myfile MyInputImage__myfile InputImage__required MyInputImage__required InputImage--alert MyInputImage--alert"
+  >
+    <label
+      className="InputImage__label MyInputImage__label InputImage__label__top MyInputImage__label__top InputImage__myfile__label MyInputImage__myfile__label"
+    >
+      My Input Label*
+    </label>
+    <div
+      className="InputImage__alertMsg MyInputImage__alertMsg InputImage__myfile__alertMsg MyInputImage__myfile__alertMsg"
+    />
+    <div
+      className="InputImage__image MyInputImage__image"
+    >
+      <img
+        alt="My File URL"
+        className="InputImage__preview Main__image--xs"
+        src="My File URL"
+        title="My File URL"
+      />
+      <ButtonWrapper
+        className="InputImage__delete MyInputImage__delete"
+        iconName="remove"
+        onClick={[Function]}
+        params={Object {}}
+      />
+    </div>
+    <label
+      className="InputImage__label MyInputImage__label InputImage__label__bottom MyInputImage__label__bottom InputImage__myfile__label MyInputImage__myfile__label"
+    >
+      <input
+        accept={false}
+        className="InputImage__input MyInputImage__input InputImage__myfile__input MyInputImage__myfile__input"
+        name="myfile"
+        onBlur={[Function]}
+        onChange={[Function]}
+        required={true}
+        type="file"
+      />
+      <ButtonWrapper
+        className="InputImage__upload MyInputImage__upload InputImage__upload--uploaded MyInputImage__upload--uploaded"
+        disabled={true}
+        iconName="check"
+        loading={false}
+        onClick={[Function]}
+        params={Object {}}
+        text="Uploaded"
+      />
+    </label>
+    <div
+      className="InputImage__warningMsg MyInputImage__warningMsg InputImage__myfile__warningMsg MyInputImage__myfile__warningMsg"
+    />
+  </div>
+</DataStateNotifier>
+`;
+
+exports[`InputImage should render the component correctly 1`] = `
+<DataStateNotifier
+  dataAdding=""
+  dataDeleting=""
+  dataError=""
+  dataLoading=""
+  dataUpdating=""
+  resetDataError={[Function]}
+>
+  <div
+    className="InputImage MyInputImage InputImage__myfile MyInputImage__myfile  "
+  >
+    <label
+      className="InputImage__label MyInputImage__label InputImage__label__top MyInputImage__label__top InputImage__myfile__label MyInputImage__myfile__label"
+    >
+      My Input Label
+    </label>
+    <div
+      className="InputImage__alertMsg MyInputImage__alertMsg InputImage__myfile__alertMsg MyInputImage__myfile__alertMsg"
+    />
+    <div
+      className="InputImage__image MyInputImage__image"
+    >
+      <img
+        alt="My File URL"
+        className="InputImage__preview Main__image--xs"
+        src="My File URL"
+        title="My File URL"
+      />
+      <ButtonWrapper
+        className="InputImage__delete MyInputImage__delete"
+        iconName="remove"
+        onClick={[Function]}
+        params={Object {}}
+      />
+    </div>
+    <label
+      className="InputImage__label MyInputImage__label InputImage__label__bottom MyInputImage__label__bottom InputImage__myfile__label MyInputImage__myfile__label"
+    >
+      <input
+        accept={false}
+        className="InputImage__input MyInputImage__input InputImage__myfile__input MyInputImage__myfile__input"
+        name="myfile"
+        onBlur={[Function]}
+        onChange={[Function]}
+        required={false}
+        type="file"
+      />
+      <ButtonWrapper
+        className="InputImage__upload MyInputImage__upload InputImage__upload--uploaded MyInputImage__upload--uploaded"
+        disabled={true}
+        iconName="check"
+        loading={false}
+        onClick={[Function]}
+        params={Object {}}
+        text="Uploaded"
+      />
+    </label>
+    <div
+      className="InputImage__warningMsg MyInputImage__warningMsg InputImage__myfile__warningMsg MyInputImage__myfile__warningMsg"
+    />
+  </div>
+</DataStateNotifier>
+`;
+
+exports[`InputImage should render the component with a validation alert message 1`] = `
+<DataStateNotifier
+  dataAdding=""
+  dataDeleting=""
+  dataError=""
+  dataLoading=""
+  dataUpdating=""
+  resetDataError={[Function]}
+>
+  <div
+    className="InputImage MyInputImage InputImage__myfile MyInputImage__myfile InputImage__required MyInputImage__required InputImage--alert MyInputImage--alert"
+  >
+    <label
+      className="InputImage__label MyInputImage__label InputImage__label__top MyInputImage__label__top InputImage__myfile__label MyInputImage__myfile__label"
+    >
+      My Input Label
+    </label>
+    <div
+      className="InputImage__alertMsg MyInputImage__alertMsg InputImage__myfile__alertMsg MyInputImage__myfile__alertMsg"
+    >
+      My validation alert message
+    </div>
+    <div
+      className="InputImage__image MyInputImage__image"
+    >
+      <img
+        alt="My File URL"
+        className="InputImage__preview Main__image--xs"
+        src="My File URL"
+        title="My File URL"
+      />
+      <ButtonWrapper
+        className="InputImage__delete MyInputImage__delete"
+        iconName="remove"
+        onClick={[Function]}
+        params={Object {}}
+      />
+    </div>
+    <label
+      className="InputImage__label MyInputImage__label InputImage__label__bottom MyInputImage__label__bottom InputImage__myfile__label MyInputImage__myfile__label"
+    >
+      <input
+        accept={false}
+        className="InputImage__input MyInputImage__input InputImage__myfile__input MyInputImage__myfile__input"
+        name="myfile"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="file"
+      />
+      <ButtonWrapper
+        className="InputImage__upload MyInputImage__upload InputImage__upload--uploaded MyInputImage__upload--uploaded"
+        disabled={true}
+        iconName="check"
+        loading={false}
+        onClick={[Function]}
+        params={Object {}}
+        text="Uploaded"
+      />
+    </label>
+    <div
+      className="InputImage__warningMsg MyInputImage__warningMsg InputImage__myfile__warningMsg MyInputImage__myfile__warningMsg"
+    />
+  </div>
+</DataStateNotifier>
+`;
+
+exports[`InputImage should render the component with a warning message 1`] = `
+<DataStateNotifier
+  dataAdding=""
+  dataDeleting=""
+  dataError=""
+  dataLoading=""
+  dataUpdating=""
+  resetDataError={[Function]}
+>
+  <div
+    className="InputImage MyInputImage InputImage__myfile MyInputImage__myfile InputImage__required MyInputImage__required InputImage--alert MyInputImage--alert"
+  >
+    <label
+      className="InputImage__label MyInputImage__label InputImage__label__top MyInputImage__label__top InputImage__myfile__label MyInputImage__myfile__label"
+    >
+      My Input Label
+    </label>
+    <div
+      className="InputImage__alertMsg MyInputImage__alertMsg InputImage__myfile__alertMsg MyInputImage__myfile__alertMsg"
+    />
+    <div
+      className="InputImage__image MyInputImage__image"
+    >
+      <img
+        alt="My File URL"
+        className="InputImage__preview Main__image--xs"
+        src="My File URL"
+        title="My File URL"
+      />
+      <ButtonWrapper
+        className="InputImage__delete MyInputImage__delete"
+        iconName="remove"
+        onClick={[Function]}
+        params={Object {}}
+      />
+    </div>
+    <label
+      className="InputImage__label MyInputImage__label InputImage__label__bottom MyInputImage__label__bottom InputImage__myfile__label MyInputImage__myfile__label"
+    >
+      <input
+        accept={false}
+        className="InputImage__input MyInputImage__input InputImage__myfile__input MyInputImage__myfile__input"
+        name="myfile"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="file"
+      />
+      <ButtonWrapper
+        className="InputImage__upload MyInputImage__upload InputImage__upload--uploaded MyInputImage__upload--uploaded"
+        disabled={true}
+        iconName="check"
+        loading={false}
+        onClick={[Function]}
+        params={Object {}}
+        text="Uploaded"
+      />
+    </label>
+    <div
+      className="InputImage__warningMsg MyInputImage__warningMsg InputImage__myfile__warningMsg MyInputImage__myfile__warningMsg"
+    >
+      My warning message
+    </div>
+  </div>
+</DataStateNotifier>
+`;
+
+exports[`InputImage should render the component with an error message through the DataStateNotifier component 1`] = `
+<DataStateNotifier
+  dataAdding=""
+  dataDeleting=""
+  dataError="My error message"
+  dataLoading=""
+  dataUpdating=""
+  resetDataError={[Function]}
+>
+  <div
+    className="InputImage MyInputImage InputImage__myfile MyInputImage__myfile  "
+  >
+    <label
+      className="InputImage__label MyInputImage__label InputImage__label__top MyInputImage__label__top InputImage__myfile__label MyInputImage__myfile__label"
+    >
+      My Input Label
+    </label>
+    <div
+      className="InputImage__alertMsg MyInputImage__alertMsg InputImage__myfile__alertMsg MyInputImage__myfile__alertMsg"
+    />
+    <div
+      className="InputImage__image MyInputImage__image"
+    >
+      <img
+        alt="My File URL"
+        className="InputImage__preview Main__image--xs"
+        src="My File URL"
+        title="My File URL"
+      />
+      <ButtonWrapper
+        className="InputImage__delete MyInputImage__delete"
+        iconName="remove"
+        onClick={[Function]}
+        params={Object {}}
+      />
+    </div>
+    <label
+      className="InputImage__label MyInputImage__label InputImage__label__bottom MyInputImage__label__bottom InputImage__myfile__label MyInputImage__myfile__label"
+    >
+      <input
+        accept={false}
+        className="InputImage__input MyInputImage__input InputImage__myfile__input MyInputImage__myfile__input"
+        name="myfile"
+        onBlur={[Function]}
+        onChange={[Function]}
+        required={false}
+        type="file"
+      />
+      <ButtonWrapper
+        className="InputImage__upload MyInputImage__upload InputImage__upload--uploaded MyInputImage__upload--uploaded"
+        disabled={true}
+        iconName="check"
+        loading={false}
+        onClick={[Function]}
+        params={Object {}}
+        text="Uploaded"
+      />
+    </label>
+    <div
+      className="InputImage__warningMsg MyInputImage__warningMsg InputImage__myfile__warningMsg MyInputImage__myfile__warningMsg"
+    />
+  </div>
+</DataStateNotifier>
+`;
+
+exports[`InputImage should render the component with an uploading message through the button component 1`] = `
+<DataStateNotifier
+  dataAdding=""
+  dataDeleting=""
+  dataError=""
+  dataLoading=""
+  dataUpdating=""
+  resetDataError={[Function]}
+>
+  <div
+    className="InputImage MyInputImage InputImage__myfile MyInputImage__myfile  "
+  >
+    <label
+      className="InputImage__label MyInputImage__label InputImage__label__top MyInputImage__label__top InputImage__myfile__label MyInputImage__myfile__label"
+    >
+      My Input Label
+    </label>
+    <div
+      className="InputImage__alertMsg MyInputImage__alertMsg InputImage__myfile__alertMsg MyInputImage__myfile__alertMsg"
+    />
+    <div
+      className="InputImage__image MyInputImage__image"
+    >
+      <img
+        alt="My File URL"
+        className="InputImage__preview Main__image--xs"
+        src="My File URL"
+        title="My File URL"
+      />
+      <ButtonWrapper
+        className="InputImage__delete MyInputImage__delete"
+        iconName="remove"
+        onClick={[Function]}
+        params={Object {}}
+      />
+    </div>
+    <label
+      className="InputImage__label MyInputImage__label InputImage__label__bottom MyInputImage__label__bottom InputImage__myfile__label MyInputImage__myfile__label"
+    >
+      <input
+        accept={false}
+        className="InputImage__input MyInputImage__input InputImage__myfile__input MyInputImage__myfile__input"
+        name="myfile"
+        onBlur={[Function]}
+        onChange={[Function]}
+        required={false}
+        type="file"
+      />
+      <ButtonWrapper
+        className="InputImage__upload MyInputImage__upload InputImage__upload--uploaded MyInputImage__upload--uploaded"
+        disabled={true}
+        iconName="check"
+        loading={true}
+        onClick={[Function]}
+        params={Object {}}
+        text="Uploaded"
+      />
+    </label>
+    <div
+      className="InputImage__warningMsg MyInputImage__warningMsg InputImage__myfile__warningMsg MyInputImage__myfile__warningMsg"
+    />
+  </div>
+</DataStateNotifier>
+`;

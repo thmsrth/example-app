@@ -1,0 +1,114 @@
+:root {
+  /** Typography **/
+  --form-input-label-font-size: 1.5rem;
+  --form-input-label-font-weight: 600;
+
+  --form-input-alert-message-font-size: 14px;
+  --form-input-alert-message-font-weight: 400;
+  --form-input-alert-message-font-style: italic;
+  --form-input-alert-message-color: var(--color-alert);
+
+  --form-input-warning-message-font-size: 15px;
+  --form-input-warning-message-font-weight: 400;
+  --form-input-warning-message-font-style: italic;
+  --form-input-warning-message-color: var(--color-warning);
+}
+
+.Form__form {
+  margin: 0 auto;
+  padding: var(--section-padding);
+  border: 1px solid var(--border-color);
+}
+
+.Form__icon {
+  margin: 0 var(--section-margin);
+}
+
+.Form__cancel {
+  background-color: var(--action-cancel-background-color);
+  color: var(--action-cancel-color);
+}
+
+.Form__submit {
+  background-color: var(--action-submit-background-color);
+  color: var(--action-submit-color);
+}
+
+.Form__submit__create,
+.Form__submit__add {
+  background-color: var(--action-create-background-color);
+  color: var(--action-create-color);
+}
+
+.Form__fields {
+  padding: var(--section-padding);
+  display: block;
+}
+
+.FormInput__label {
+  display: block;
+  padding: var(--section-padding);
+  font-size: var(--form-input-label-font-size);
+  font-weight: var(--form-input-label-font-weight);
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.FormInput__label--disabled {
+  color: var(--input-disabled-color);
+}
+
+.FormInput__alertMsg {
+  display: none;
+  font-size: var(--form-input-alert-message-font-size);
+  font-weight: var(--form-input-alert-message-font-weight);
+  font-style: var(--form-input-alert-message-font-style);
+  margin-top: calc(var(--section-margin) / 2);
+}
+
+.FormInput--alert > .FormInput__label > .FormInput__input,
+.FormInput--alert > .FormInput__label > .InputCollection__fields {
+  border-color: var(--form-input-alert-message-color);
+  margin-top: 0;
+}
+
+.FormInput__alertMsg {
+  color: var(--form-input-alert-message-color);
+  display: block;
+}
+
+.FormInput__warningMsg {
+  font-size: var(--form-input-warning-message-font-size);
+  font-weight: var(--form-input-warning-message-font-weight);
+  font-style: var(--form-input-warning-message-font-style);
+  color: var(--form-input-warning-message-color);
+  display: block;
+}
+
+.FormInput__input {
+  margin: calc(var(--section-margin) / 2) 0;
+  display: block;
+  width: 100%;
+}
+
+.FormInput__input--disabled,
+.FormInput__input--disabled .Select-value,
+.FormInput__input--disabled .Select-placeholder {
+  cursor: not-allowed;
+  background-color: var(--form-background-color);
+}
+
+.FormInput--alert > .FormInput__label > .FormInput__input--disabled {
+  border-color: var(--border-color);
+}
+
+.Form__formActions {
+  padding: var(--section-padding);
+  margin-top: var(--section-margin);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.FormInput__options {
+  padding-top: var(--section-padding);
+}

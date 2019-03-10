@@ -1,0 +1,24 @@
+.Detail__container {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: calc(100vh - 75px);
+}
+
+.Detail__dashboard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Detail__actions {
+  margin: 0;
+}
+
+.Detail__icon {
+  margin-right: var(--space);
+}
+
+.DetailBack {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

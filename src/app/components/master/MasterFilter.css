@@ -1,0 +1,9 @@
+.MasterFilter {
+  width: 100%;
+  padding-bottom: var(--section-padding);
+}
+
+.MasterFilterInput {
+  padding-right: calc(var(--section-padding) * 2);
+  padding-bottom: var(--section-padding);
+}

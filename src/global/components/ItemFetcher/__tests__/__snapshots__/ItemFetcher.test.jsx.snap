@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemFetcher should render the Not Found correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(ItemFetcher)
+    data={
+      Array [
+        Object {
+          "id": 1,
+          "name": "test",
+        },
+      ]
+    }
+    id={2}
+  >
+    <TestComponent />
+  </Connect(ItemFetcher)>
+</Provider>
+`;
+
+exports[`ItemFetcher should render the child component correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(ItemFetcher)
+    data={
+      Array [
+        Object {
+          "id": 1,
+          "name": "test",
+        },
+      ]
+    }
+    id={1}
+  >
+    <TestComponent />
+  </Connect(ItemFetcher)>
+</Provider>
+`;

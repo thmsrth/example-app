@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailHeaderActions should render the buttons disabled 1`] = `
+<div
+  className="DetailHeaderActions"
+>
+  <div
+    className="DetailHeaderActions__container"
+  >
+    <ButtonWrapper
+      className="DetailHeaderActions__button"
+      disabled={true}
+      iconName="beer"
+      onClick={[Function]}
+      params={Object {}}
+      text="Disabled action"
+    />
+    <ButtonWrapper
+      className="DetailHeaderActions__button"
+      disabled={true}
+      iconName="edit"
+      onClick={[Function]}
+      params={Object {}}
+      text="Edit"
+    />
+    <ButtonWrapper
+      className="DetailHeaderActions__button DetailHeaderActions__button__delete"
+      disabled={true}
+      iconName="trash"
+      loading={false}
+      onClick={[Function]}
+      params={Object {}}
+      text="Delete"
+    />
+  </div>
+</div>
+`;

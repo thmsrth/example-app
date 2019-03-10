@@ -1,0 +1,41 @@
+:root {
+  /** Colors **/
+  --dropdown-icon-color: var(--color-dark-grey);
+  --dropdown-content-background-color: var(--color-white);
+  --dropdown-button-padding: var(--element-padding);
+  --dropdown-button-background-color: var(--color-brand-secondary);
+}
+
+.Dropdown {
+  position: relative;
+}
+
+.Dropdown .Dropdown__content {
+  position: absolute;
+  overflow: hidden !important;
+  max-height: 0;
+  width: 100%;
+}
+
+.Dropdown--active .Dropdown__content {
+  max-height: 1000px;
+  transition: max-height .5s ease-in-out;
+}
+
+.Dropdown__container {
+  position: relative;
+}
+
+.Dropdown__icon {
+  font-size: 1.2em;
+  color: var(--dropdown-icon-color);
+}
+
+.Dropdown__content {
+  z-index: 1;
+  background-color: var(--dropdown-content-background-color);
+}
+
+.Dropdown__button {
+  background-color: var(--dropdown-button-padding);
+}

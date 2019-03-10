@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MasterList should render the component correctly 1`] = `
+<div
+  className="MasterList"
+>
+  <div
+    className="MasterList__container"
+  >
+    <OverviewListWrapper
+      className="MasterList"
+      fetchSortedItems={[Function]}
+      handlers={
+        Object {
+          "detail": [Function],
+        }
+      }
+      items={
+        Array [
+          Object {
+            "calories": 266,
+            "createdAt": "2018-10-28T14:48:54.01293",
+            "createdBy": "thomas",
+            "fat": 34,
+            "id": 1,
+            "name": "Pizza",
+            "protein": 0.6,
+            "status": "UNHEALTHY",
+            "updatedAt": null,
+            "updatedBy": null,
+          },
+          Object {
+            "calories": 508,
+            "createdAt": "2018-11-28T04:48:54.01293",
+            "createdBy": "tommy",
+            "fat": 1,
+            "id": 2,
+            "name": "Sushi",
+            "protein": 26.7,
+            "status": "HEALTHY",
+            "updatedAt": null,
+            "updatedBy": null,
+          },
+          Object {
+            "calories": 271,
+            "createdAt": "2018-12-28T14:48:54.01293",
+            "createdBy": "ben",
+            "fat": 1.3,
+            "id": 3,
+            "name": "Steak",
+            "protein": 6.6,
+            "status": "UNHEALTHY",
+            "updatedAt": "2018-12-29T12:48:54.01293",
+            "updatedBy": "thomas",
+          },
+        ]
+      }
+      keys={
+        Array [
+          Object {
+            "name": "id",
+            "title": "ID",
+            "type": "number",
+          },
+          Object {
+            "name": "name",
+            "title": "Name",
+            "type": "text",
+          },
+          Object {
+            "name": "nutritionalInformation",
+            "options": Array [
+              Object {
+                "name": "fat",
+                "title": "Fat:",
+                "type": "number",
+              },
+              Object {
+                "name": "protein",
+                "title": "Protein:",
+                "type": "number",
+              },
+              Object {
+                "name": "calories",
+                "title": "Calories:",
+                "type": "number",
+              },
+            ],
+            "title": "Nutritional information",
+            "type": "box",
+          },
+          Object {
+            "name": "status",
+            "title": "Status",
+            "type": "text",
+          },
+          Object {
+            "format": "DD/MM/YYYY HH:mm",
+            "name": "createdAt",
+            "title": "Created At",
+            "type": "datetime",
+          },
+          Object {
+            "name": "createdBy",
+            "title": "Created by",
+            "type": "text",
+          },
+          Object {
+            "format": "DD/MM/YYYY HH:mm",
+            "name": "updatedAt",
+            "title": "Updated At",
+            "type": "datetime",
+          },
+          Object {
+            "name": "updatedBy",
+            "title": "Updated by",
+            "type": "text",
+          },
+          Object {
+            "name": "actions",
+            "options": Array [
+              Object {
+                "actionParams": Array [
+                  "id",
+                ],
+                "condition": false,
+                "icon": "search",
+                "name": "detail",
+                "title": "",
+                "type": "action",
+              },
+            ],
+            "title": "Actions",
+            "type": "box",
+          },
+        ]
+      }
+      serverSidedSorting={false}
+      sortOrder="DESC"
+      sortedKey="createdAt"
+    />
+  </div>
+</div>
+`;

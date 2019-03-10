@@ -1,0 +1,29 @@
+.Master {
+  box-shadow: var(--section-box-shadow);
+  background-color: var(--section-background-color);
+  border-top: var(--section-border-top);
+  border-radius: var(--section-border-radius);
+  margin: var(--section-margin);
+}
+
+.Master__container {
+  padding: var(--section-padding);
+}
+
+.Master__actions {
+  padding: calc(var(--section-padding) * 2) var(--section-padding) 0;
+}
+
+.Master__header {
+  width: 100%;
+  padding: var(--section-header-padding);
+  border-bottom: var(--section-header-border-bottom);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Master__title {
+  font-size: var(--section-title-font-size);
+  margin: var(--section-title-margin);
+}

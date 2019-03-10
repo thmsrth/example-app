@@ -1,0 +1,94 @@
+.OverviewListItemBoxValue {
+  display: inline-flex;
+  margin: var(--element-margin) 0 0;
+  word-break: break-all;
+}
+
+.OverviewListItemBoxValue__title {
+  margin-right: var(--element-margin);
+}
+
+.OverviewListItemBoxValue__link {
+  color: var(--action-detail-color);
+  background-color: var(--color-transparent);
+  border: 0;
+  padding: 0;
+  margin-right: calc(var(--section-margin) * 2);
+}
+
+.OverviewListItemBoxValue__link--disabled {
+  color: var(--action-disabled-background-color);
+}
+
+.OverviewListItemBoxValue__action,
+.OverviewListItemBoxValue__actionSecondary {
+  margin: 0;
+}
+
+.OverviewListItemBoxValue__action__icon,
+.OverviewListItemBoxValue__link__icon,
+.OverviewListItemBoxValue__actionSecondary__icon {
+  margin-right: 0;
+}
+
+.OverviewListItemBoxValue__detail__action,
+.OverviewListItemBoxValue__detail__action__icon,
+.OverviewListItemBoxValue__detail__action__text {
+  color: var(--action-detail-color);
+  background-color: var(--action-detail-background-color);
+}
+
+.OverviewListItemBoxValue__edit__action,
+.OverviewListItemBoxValue__edit__action__icon,
+.OverviewListItemBoxValue__edit__action__text {
+  color: var(--action-edit-color);
+  background-color: var(--action-edit-background-color);
+}
+
+.OverviewListItemBoxValue__delete__action,
+.OverviewListItemBoxValue__delete__action__icon,
+.OverviewListItemBoxValue__delete__action__text {
+  color: var(--action-delete-color);
+  background-color: var(--action-delete-background-color);
+}
+
+.Button--disabled.OverviewListItemBoxValue__action--disabled,
+.Button__icon--disabled.OverviewListItemBoxValue__action__icon--disabled,
+.Button__text--disabled.OverviewListItemBoxValue__action__text--disabled {
+  background-color: var(--action-disabled-background-color);
+}
+
+.OverviewListItemBoxValue__actionSecondary {
+  color: var(--color-action);
+  background-color: var(--action-secondary-background-color);
+  border: 0;
+  padding: 0;
+  margin-right: calc(var(--section-margin) * 2);
+}
+
+.OverviewListItemBoxValue__edit__actionSecondary,
+.OverviewListItemBoxValue__verify__actionSecondary {
+  color: var(--action-submit-background-color);
+  background-color: var(--action-secondary-background-color);
+  border: 0;
+}
+
+.OverviewListItemBoxValue__primary__actionSecondary {
+  color: var(--action-primary-background-color);
+  background-color: var(--action-secondary-background-color);
+  border: 0;
+}
+
+.OverviewListItemBoxValue__delete__actionSecondary {
+  color: var(--action-delete-background-color);
+  background-color: var(--action-secondary-background-color);
+  border: 0;
+}
+
+.Button--disabled.OverviewListItemBoxValue__actionSecondary--disabled,
+.Button__icon--disabled.OverviewListItemBoxValue__actionSecondary__icon--disabled,
+.Button__text--disabled.OverviewListItemBoxValue__actionSecondary__text--disabled {
+  color: var(--action-disabled-background-color);
+  background-color: var(--action-secondary-background-color);
+  border: 0;
+}

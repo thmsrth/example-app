@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Detail should render the component correctly 1`] = `
+<DataStateNotifier
+  dataAdding=""
+  dataDeleting=""
+  dataError=""
+  dataLoading=""
+  dataUpdating=""
+  resetDataError={[Function]}
+>
+  <div
+    className="Detail"
+  >
+    <DetailHeader
+      dataFilters={Object {}}
+      dataPaginationOffset={0}
+      dataPaginationSize={25}
+      dataSortParam="id,ASC"
+      item={
+        Object {
+          "calories": 266,
+          "createdAt": "2018-10-28T14:48:54.01293",
+          "createdBy": "thomas",
+          "fat": 34,
+          "id": 1,
+          "name": "Pizza",
+          "protein": 0.6,
+          "status": "UNHEALTHY",
+          "updatedAt": null,
+          "updatedBy": null,
+        }
+      }
+    />
+    <div
+      className="Detail__container"
+    >
+      <div
+        className="Detail__dashboard"
+      >
+        <DetailInfos
+          item={
+            Object {
+              "calories": 266,
+              "createdAt": "2018-10-28T14:48:54.01293",
+              "createdBy": "thomas",
+              "fat": 34,
+              "id": 1,
+              "name": "Pizza",
+              "protein": 0.6,
+              "status": "UNHEALTHY",
+              "updatedAt": null,
+              "updatedBy": null,
+            }
+          }
+        />
+        <BeersBox
+          beersError=""
+          beersLoading=""
+          item={
+            Object {
+              "calories": 266,
+              "createdAt": "2018-10-28T14:48:54.01293",
+              "createdBy": "thomas",
+              "fat": 34,
+              "id": 1,
+              "name": "Pizza",
+              "protein": 0.6,
+              "status": "UNHEALTHY",
+              "updatedAt": null,
+              "updatedBy": null,
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</DataStateNotifier>
+`;

@@ -1,0 +1,127 @@
+:root {
+  --space: 2rem;
+  --border-radius: 3px;
+  --border-color: var(--color-light-grey);
+  --color-alert: var(--color-red);
+  --color-warning: var(--color-orange);
+  --color-action: var(--color-dark-grey);
+  --color-master-action: var(--color-white);
+  --color-confirm: var(--color-green);
+  --color-cancel: var(--color-extra-light-grey);
+
+  /* Section */
+  --section-padding: calc(var(--space) / 2);
+  --section-margin: calc(var(--space) / 2);
+  --section-background-color: var(--color-white);
+  --section-box-shadow: 1px 1px 5px var(--color-light-grey);
+  --section-border-top: 3px solid var(--color-light-grey);
+  --section-form-border-top: 3px solid var(--border-color);
+  --section-border-radius: var(--border-radius);
+
+  /* Section Header */
+  --section-header-padding: calc(var(--space) / 3) calc(var(--space) / 2);
+  --section-header-margin: var(--section-margin);
+  --section-header-border-bottom: 1px solid var(--color-extra-light-grey);
+
+  /* Section Title */
+  --section-title-font-size: 18px;
+  --section-title-margin: 0;
+
+  /* Form */
+  --form-background-color: var(--color-white);
+
+  /* Element */
+  --element-padding: calc(var(--space) / 3) calc(var(--space) / 2);
+  --element-margin: calc(var(--space) / 4);
+
+  /* Actions */
+  --action-disabled-background-color: var(--state-disabled-background-color);
+
+  --action-clear-color: var(--color-black);
+  --action-clear-background-color: var(--color-cancel);
+
+  --action-login-color: var(--color-white);
+  --action-login-background-color: var(--color-brand-primary);
+
+  --action-detail-color: var(--color-black);
+  --action-detail-background-color: var(--color-master-action);
+
+  --action-create-color: var(--color-white);
+  --action-create-background-color: var(--color-blue);
+
+  --action-edit-color: var(--color-white);
+  --action-edit-background-color: var(--color-action);
+
+  --action-primary-color: var(--color-white);
+  --action-primary-background-color: var(--color-orange);
+
+  --action-delete-color: var(--color-white);
+  --action-delete-background-color: var(--color-alert);
+
+  --action-submit-color: var(--color-white);
+  --action-submit-background-color: var(--color-confirm);
+
+  --action-cancel-color: var(--color-black);
+  --action-cancel-background-color: var(--color-cancel);
+
+  --action-filter-color: var(--color-white);
+  --action-filter-background-color: var(--color-blue);
+
+  --action-secondary-color: var(--color-light-grey);
+  --action-secondary-background-color: var(--color-transparent);
+
+  /* States */
+  --state-disabled-color: var(--color-white);
+  --state-disabled-background-color: var(--color-light-grey);
+
+  /** InputSelect and InputMultiSelect default styles  **/
+
+  /** Colors **/
+  --input-default-select-background-color: var(--color-white);
+  --input-default-select-color: var(--color-black);
+  --input-default-select-focus-outline-color: var(--color-brand-primary);
+  --input-default-select-border-color: var(--border-color);
+  --input-default-select-icon-color: var(--color-dark-grey);
+
+  --input-default-select-hover-background-color: var(--color-brand-secondary);
+  --input-default-select-hover-color: var(--color-black);
+  --input-default-select-hover-border-color: var(--border-color);
+
+  --input-default-select-option-color: var(--color-dark-grey);
+  --input-default-select-option-background-color: var(--color-white);
+  --input-default-select-option-selected-color: var(--color-black);
+  --input-default-select-option-selected-background-color: var(--color-brand-secondary);
+
+  /** Layout **/
+  --input-disabled-color: var(--color-grey);
+  --input-default-select-width: 250px;
+  --input-default-select-space: var(--space);
+  --input-default-select-border-radius: var(--border-radius);
+  --input-default-select-padding: var(--element-padding);
+
+  --input-default-select-option-padding: var(--element-padding);
+
+  /** Typography **/
+  --input-default-select-font-family: inherit;
+  --input-default-select-font-weight: normal;
+  --input-default-select-font-size: inherit;
+  --input-default-select-line-height: inherit;
+}
+
+body {
+  background-color: var(--color-extra-light-grey);
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  border: 1px solid var(--border-color);
+  padding: var(--element-padding);
+  font-size: 1.4rem;
+}
+
+button {
+  border-radius: var(--border-radius);
+}

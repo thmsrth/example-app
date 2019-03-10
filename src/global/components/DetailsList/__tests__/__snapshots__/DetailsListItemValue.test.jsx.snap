@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailsListItemValue should render the component correctly with date value 1`] = `
+<div
+  className="DetailsListItemValue "
+>
+  13/09/2018
+</div>
+`;
+
+exports[`DetailsListItemValue should render the component correctly with text value 1`] = `
+<div
+  className="DetailsListItemValue "
+>
+  huhu
+</div>
+`;

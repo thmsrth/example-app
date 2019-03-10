@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link should not render the component if href is blank 1`] = `""`;
+
+exports[`Link should render the component correctly with children and href 1`] = `
+<a
+  className="Link myClassname"
+  href="/contact/user/400000227"
+  onClick={[Function]}
+  target="_self"
+  title=""
+>
+  <div
+    className="Link__text myClassname__text Link__text myClassname__text"
+  >
+    Mytext
+  </div>
+</a>
+`;
+
+exports[`Link should render the component correctly with disabled state 1`] = `
+<div
+  className="Link myClassname Link--disabled myClassname--disabled"
+>
+  <div
+    className="Link__text myClassname__text Link__text--disabled myClassname__text--disabled"
+  >
+    Mytext
+  </div>
+</div>
+`;
+
+exports[`Link should render the component correctly with text and href 1`] = `
+<a
+  className="Link myClassname"
+  href="/contact/user/400000227"
+  onClick={[Function]}
+  target="_self"
+  title=""
+>
+  <div
+    className="Link__text myClassname__text Link__text myClassname__text"
+  >
+    Mytext
+  </div>
+</a>
+`;

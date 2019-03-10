@@ -1,0 +1,31 @@
+.MasterActions {
+  margin: var(--section-margin) 0 0;
+}
+
+.MasterActions__icon {
+  margin: 0 var(--section-margin);
+}
+
+.MasterActions__container {
+  padding: var(--section-padding) var(--section-padding) 0;
+  display: inline-flex;
+}
+
+.MasterActions__button {
+  background-color: var(--color-master-action);
+  margin-right: var(--section-margin);
+}
+
+.MasterActions__button .MasterActions__button__icon,
+.MasterActions__button .MasterActions__button__text {
+  color: var(--color-black);
+}
+
+.MasterActions__button--disabled {
+  background-color: var(--button-disabled-background-color);
+}
+
+.MasterActions__button--disabled .MasterActions__button__icon,
+.MasterActions__button--disabled .MasterActions__button__text {
+  color: var(--button-disabled-color);
+}

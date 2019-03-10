@@ -1,0 +1,57 @@
+:root {
+  /** Typography **/
+  --filter-input-alert-message-font-size: 14px;
+  --filter-input-alert-message-font-weight: 400;
+  --filter-input-alert-message-font-style: italic;
+  --filter-input-alert-message-color: var(--color-alert);
+}
+
+.Filter {
+  padding: var(--section-padding);
+}
+
+.FilterInputs {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.FilterActions {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-bottom: var(--section-padding);
+}
+
+.FilterText__label,
+.FilterSelect__label,
+.FilterCheckbox__title,
+.FilterCheckbox__label,
+.FilterRange__label {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.FilterText__range__label {
+  margin-top: calc(var(--element-margin) * 2);
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.FilterCheckbox__title {
+  margin-bottom: calc(var(--element-margin) * 2);
+}
+
+.FilterText__input,
+.FilterSelect__input,
+.FilterCheckbox__input {
+  margin-top: calc(var(--space) / 3);
+  display: block;
+}
+
+.FilterText__input[placeholder] {
+  font-weight: normal;
+}

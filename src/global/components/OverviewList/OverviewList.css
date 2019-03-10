@@ -1,0 +1,14 @@
+.OverviewList__table {
+  width: 100%;
+  table-layout: auto;
+}
+
+.OverviewList__thead {
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.OverviewList__th {
+  text-align: left;
+  font-weight: bold;
+}

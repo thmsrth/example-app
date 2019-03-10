@@ -1,0 +1,31 @@
+.DetailHeaderActions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.DetailHeaderActions__container {
+  display: inline-flex;
+}
+
+.DetailHeaderActions__button {
+  margin-left: var(--section-margin);
+  color: var(--color-white);
+  background-color: var(--color-action);
+}
+
+.DetailHeaderActions__button--disabled {
+  color: var(--button-disabled-color);
+  background-color: var(--button-disabled-background-color);
+}
+
+.DetailHeaderActions__button__delete {
+  margin-left: var(--section-margin);
+  background-color: var(--action-delete-background-color);
+  color: var(--action-delete-color);
+}
+
+.DetailHeaderActions__button__delete--disabled {
+  color: var(--button-disabled-color);
+  background-color: var(--button-disabled-background-color);
+}

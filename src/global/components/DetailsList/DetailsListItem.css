@@ -1,0 +1,10 @@
+.DetailsListItem__title {
+    padding: var(--section-padding);
+    vertical-align: top;
+}
+
+.DetailsListItem__value {
+    padding: var(--section-padding);
+    vertical-align: top;
+    text-align: right;
+}

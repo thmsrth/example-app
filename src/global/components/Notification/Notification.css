@@ -1,0 +1,23 @@
+.Notification{
+  box-shadow: var(--section-box-shadow);
+  padding: var(--section-padding);
+  margin: var(--section-margin);
+  background-color: var(--section-background-color);
+  border-top: var(--section-border-top);
+  border-radius: var(--section-border-radius);
+  text-align: center;
+}
+
+.Notification__container {
+  padding: var(--section-padding);
+}
+
+.Notification__message {
+  margin: 0 0 calc(var(--section-margin) * 2);
+  font-size: 15px;
+  color: var(--color-black);
+}
+
+.Notification__button {
+  margin: 0 auto !important;
+}

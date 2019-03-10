@@ -1,0 +1,38 @@
+.BeersBox {
+  box-shadow: var(--section-box-shadow);
+  margin: var(--section-margin);
+  background-color: var(--section-background-color);
+  border-top: var(--section-border-top);
+  border-radius: var(--section-border-radius);
+  width: calc(66.66% - (var(--section-margin) * 2));
+  flex-basis: calc(66.66% - (var(--section-margin) * 2));
+}
+
+.BeersBox__container {
+  padding: var(--section-padding) 0 0;
+}
+
+.BeersBox__header {
+  padding: var(--section-header-padding);
+  display: flex;
+  justify-content: space-between;
+  border-bottom: var(--section-header-border-bottom);
+}
+
+.BeersBox__title {
+  font-size: var(--section-title-font-size);
+  margin: var(--section-title-margin);
+}
+
+.Button__icon--disabled.BeersBoxEdit__button__icon--disabled {
+  color: var(--action-disabled-background-color);
+  background-color: var(--color-transparent);
+}
+
+.BeersBoxEdit__button__icon {
+  margin-right: 0;
+}
+
+.BeersListItemBoxValue {
+  word-break: normal;
+}

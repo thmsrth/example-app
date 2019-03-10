@@ -1,0 +1,391 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputCollectionItem should render the component correctly 1`] = `
+<div
+  className="InputCollectionItem FormInputItem MyInputCollectionItemItem "
+>
+  <div
+    className="InputCollectionItemFields FormInputItemFields MyInputCollectionItemItemFields"
+  >
+    <InputCollectionFieldWrapper
+      className="InputCollectionItem MyInputCollectionItem"
+      disabled={false}
+      field={
+        Object {
+          "name": "myFirstField",
+          "required": true,
+          "title": "My First Field",
+          "type": "text",
+          "validationAlert": "Please enter a myFirstField",
+          "warningAlert": "My First Field Warning",
+        }
+      }
+      handleAddCollectionItem={[Function]}
+      hidden={false}
+      index={0}
+      key="MyInputName_0_myFirstField"
+      name="MyInputName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      value={
+        Array [
+          Object {
+            "myFirstField": Object {
+              "isValid": true,
+              "showWarning": false,
+              "value": "http://someurl.foo",
+            },
+            "mySecondField": Object {
+              "isValid": true,
+              "showWarning": false,
+              "value": "firstOption",
+            },
+          },
+          Object {
+            "myFirstField": Object {
+              "isValid": true,
+              "showWarning": false,
+              "value": "http://someotherurl.bar",
+            },
+            "mySecondField": Object {
+              "isValid": true,
+              "showWarning": false,
+              "value": "secondOption",
+            },
+          },
+        ]
+      }
+    />
+    <InputCollectionFieldWrapper
+      className="InputCollectionItem MyInputCollectionItem"
+      disabled={false}
+      field={
+        Object {
+          "name": "mySecondField",
+          "options": Array [
+            Object {
+              "label": "First Option",
+              "value": "firstOption",
+            },
+            Object {
+              "label": "Second Option",
+              "value": "secondOption",
+            },
+          ],
+          "required": true,
+          "title": "My Second Field",
+          "type": "select",
+          "validationAlert": "Please select a mySecondField",
+          "warningAlert": "My Second Field Warning",
+        }
+      }
+      handleAddCollectionItem={[Function]}
+      hidden={false}
+      index={0}
+      key="MyInputName_0_mySecondField"
+      name="MyInputName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      value={
+        Array [
+          Object {
+            "myFirstField": Object {
+              "isValid": true,
+              "showWarning": false,
+              "value": "http://someurl.foo",
+            },
+            "mySecondField": Object {
+              "isValid": true,
+              "showWarning": false,
+              "value": "firstOption",
+            },
+          },
+          Object {
+            "myFirstField": Object {
+              "isValid": true,
+              "showWarning": false,
+              "value": "http://someotherurl.bar",
+            },
+            "mySecondField": Object {
+              "isValid": true,
+              "showWarning": false,
+              "value": "secondOption",
+            },
+          },
+        ]
+      }
+    />
+  </div>
+  <ButtonWrapper
+    className="InputCollectionItem__delete FormInputItem__delete MyInputCollectionItemItem__delete"
+    iconName="remove"
+    onClick={[Function]}
+    params={
+      Object {
+        "index": 0,
+      }
+    }
+    text=""
+  />
+</div>
+`;
+
+exports[`InputCollectionItem should render the component correctly with validation alert for each items field 1`] = `
+<div
+  className="InputCollectionItem FormInputItem MyInputCollectionItemItem InputCollectionItem--alert FormInputItem--alert MyInputCollectionItemItem--alert"
+>
+  <div
+    className="InputCollectionItemFields FormInputItemFields MyInputCollectionItemItemFields"
+  >
+    <InputCollectionFieldWrapper
+      className="InputCollectionItem MyInputCollectionItem"
+      disabled={false}
+      field={
+        Object {
+          "name": "myFirstField",
+          "required": true,
+          "title": "My First Field",
+          "type": "text",
+          "validationAlert": "Please enter a myFirstField",
+          "warningAlert": "My First Field Warning",
+        }
+      }
+      handleAddCollectionItem={[Function]}
+      hidden={false}
+      index={0}
+      key="MyInputName_0_myFirstField"
+      name="MyInputName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      value={
+        Array [
+          Object {
+            "myFirstField": Object {
+              "isValid": false,
+              "showWarning": false,
+              "value": "http://someurl.foo",
+            },
+            "mySecondField": Object {
+              "isValid": false,
+              "showWarning": false,
+              "value": "firstOption",
+            },
+          },
+          Object {
+            "myFirstField": Object {
+              "isValid": false,
+              "showWarning": false,
+              "value": "http://someotherurl.bar",
+            },
+            "mySecondField": Object {
+              "isValid": false,
+              "showWarning": false,
+              "value": "secondOption",
+            },
+          },
+        ]
+      }
+    />
+    <InputCollectionFieldWrapper
+      className="InputCollectionItem MyInputCollectionItem"
+      disabled={false}
+      field={
+        Object {
+          "name": "mySecondField",
+          "options": Array [
+            Object {
+              "label": "First Option",
+              "value": "firstOption",
+            },
+            Object {
+              "label": "Second Option",
+              "value": "secondOption",
+            },
+          ],
+          "required": true,
+          "title": "My Second Field",
+          "type": "select",
+          "validationAlert": "Please select a mySecondField",
+          "warningAlert": "My Second Field Warning",
+        }
+      }
+      handleAddCollectionItem={[Function]}
+      hidden={false}
+      index={0}
+      key="MyInputName_0_mySecondField"
+      name="MyInputName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      value={
+        Array [
+          Object {
+            "myFirstField": Object {
+              "isValid": false,
+              "showWarning": false,
+              "value": "http://someurl.foo",
+            },
+            "mySecondField": Object {
+              "isValid": false,
+              "showWarning": false,
+              "value": "firstOption",
+            },
+          },
+          Object {
+            "myFirstField": Object {
+              "isValid": false,
+              "showWarning": false,
+              "value": "http://someotherurl.bar",
+            },
+            "mySecondField": Object {
+              "isValid": false,
+              "showWarning": false,
+              "value": "secondOption",
+            },
+          },
+        ]
+      }
+    />
+  </div>
+  <ButtonWrapper
+    className="InputCollectionItem__delete FormInputItem__delete MyInputCollectionItemItem__delete"
+    iconName="remove"
+    onClick={[Function]}
+    params={
+      Object {
+        "index": 0,
+      }
+    }
+    text=""
+  />
+</div>
+`;
+
+exports[`InputCollectionItem should render the component correctly with warnings for each items field 1`] = `
+<div
+  className="InputCollectionItem FormInputItem MyInputCollectionItemItem "
+>
+  <div
+    className="InputCollectionItemFields FormInputItemFields MyInputCollectionItemItemFields"
+  >
+    <InputCollectionFieldWrapper
+      className="InputCollectionItem MyInputCollectionItem"
+      disabled={false}
+      field={
+        Object {
+          "name": "myFirstField",
+          "required": true,
+          "title": "My First Field",
+          "type": "text",
+          "validationAlert": "Please enter a myFirstField",
+          "warningAlert": "My First Field Warning",
+        }
+      }
+      handleAddCollectionItem={[Function]}
+      hidden={false}
+      index={0}
+      key="MyInputName_0_myFirstField"
+      name="MyInputName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      value={
+        Array [
+          Object {
+            "myFirstField": Object {
+              "isValid": true,
+              "showWarning": true,
+              "value": "http://someurl.foo",
+            },
+            "mySecondField": Object {
+              "isValid": true,
+              "showWarning": true,
+              "value": "firstOption",
+            },
+          },
+          Object {
+            "myFirstField": Object {
+              "isValid": true,
+              "showWarning": true,
+              "value": "http://someotherurl.bar",
+            },
+            "mySecondField": Object {
+              "isValid": true,
+              "showWarning": true,
+              "value": "secondOption",
+            },
+          },
+        ]
+      }
+    />
+    <InputCollectionFieldWrapper
+      className="InputCollectionItem MyInputCollectionItem"
+      disabled={false}
+      field={
+        Object {
+          "name": "mySecondField",
+          "options": Array [
+            Object {
+              "label": "First Option",
+              "value": "firstOption",
+            },
+            Object {
+              "label": "Second Option",
+              "value": "secondOption",
+            },
+          ],
+          "required": true,
+          "title": "My Second Field",
+          "type": "select",
+          "validationAlert": "Please select a mySecondField",
+          "warningAlert": "My Second Field Warning",
+        }
+      }
+      handleAddCollectionItem={[Function]}
+      hidden={false}
+      index={0}
+      key="MyInputName_0_mySecondField"
+      name="MyInputName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      value={
+        Array [
+          Object {
+            "myFirstField": Object {
+              "isValid": true,
+              "showWarning": true,
+              "value": "http://someurl.foo",
+            },
+            "mySecondField": Object {
+              "isValid": true,
+              "showWarning": true,
+              "value": "firstOption",
+            },
+          },
+          Object {
+            "myFirstField": Object {
+              "isValid": true,
+              "showWarning": true,
+              "value": "http://someotherurl.bar",
+            },
+            "mySecondField": Object {
+              "isValid": true,
+              "showWarning": true,
+              "value": "secondOption",
+            },
+          },
+        ]
+      }
+    />
+  </div>
+  <ButtonWrapper
+    className="InputCollectionItem__delete FormInputItem__delete MyInputCollectionItemItem__delete"
+    iconName="remove"
+    onClick={[Function]}
+    params={
+      Object {
+        "index": 0,
+      }
+    }
+    text=""
+  />
+</div>
+`;

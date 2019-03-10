@@ -1,0 +1,36 @@
+.InputCollection {
+  padding: var(--section-padding);
+}
+
+.FormInput__label.InputCollection__label {
+  padding: 0;
+}
+
+.InputCollection__fields {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--section-margin) * 1.5);
+}
+
+.InputCollection--empty .InputCollection__fields {
+  border: 1px solid var(--border-color);
+}
+
+.InputCollection__header {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.InputCollection__add {
+  color: var(--action-secondary-color);
+  background-color: var(--action-secondary-background-color);
+  border: none;
+  font-size: 1.3em;
+  padding: 0 var(--section-padding);
+}
+
+.InputCollection__add__icon {
+  margin: 0;
+}

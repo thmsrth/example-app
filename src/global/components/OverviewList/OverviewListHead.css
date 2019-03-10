@@ -1,0 +1,18 @@
+.OverviewListHead {
+  padding: var(--section-padding);
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.OverviewListHead__actions .OverviewListHead {
+  cursor: default;
+}
+
+.OverviewListHead__icon {
+  margin-left: calc(var(--section-margin) / 2);
+}
+
+.OverviewListHead__title {
+  font-size: 1.5rem;
+  padding: 0 calc(var(--element-padding) / 2);
+}

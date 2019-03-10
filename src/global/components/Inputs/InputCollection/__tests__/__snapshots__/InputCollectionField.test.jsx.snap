@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputCollectionField should render the component correctly 1`] = `
+<div
+  className="InputCollectionField MyInputCollectionFieldField InputCollectionField__mySecondField MyInputCollectionFieldField__mySecondField"
+>
+  <InputSelectWrapper
+    className="FormInput MyInputCollectionFieldInput"
+    hidden={false}
+    key="mySecondField"
+    label="My Second Field"
+    name="mySecondField"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    options={
+      Array [
+        Object {
+          "label": "First Option",
+          "value": "firstOption",
+        },
+        Object {
+          "label": "Second Option",
+          "value": "secondOption",
+        },
+      ]
+    }
+    optionsFromData={null}
+    optionsFromDataKey=""
+    validationKeys={
+      Object {
+        "onValidate": undefined,
+        "onWarning": undefined,
+        "pattern": undefined,
+        "required": true,
+        "validationAlert": "",
+        "warningAlert": "",
+      }
+    }
+    value="firstOption"
+  />
+</div>
+`;
+
+exports[`InputCollectionField should render the component correctly with validation alert for each items field 1`] = `
+<div
+  className="InputCollectionField MyInputCollectionFieldField InputCollectionField__mySecondField MyInputCollectionFieldField__mySecondField"
+>
+  <InputSelectWrapper
+    className="FormInput MyInputCollectionFieldInput"
+    hidden={false}
+    key="mySecondField"
+    label="My Second Field"
+    name="mySecondField"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    options={
+      Array [
+        Object {
+          "label": "First Option",
+          "value": "firstOption",
+        },
+        Object {
+          "label": "Second Option",
+          "value": "secondOption",
+        },
+      ]
+    }
+    optionsFromData={null}
+    optionsFromDataKey=""
+    validationKeys={
+      Object {
+        "onValidate": undefined,
+        "onWarning": undefined,
+        "pattern": undefined,
+        "required": true,
+        "validationAlert": "Please select a mySecondField",
+        "warningAlert": "",
+      }
+    }
+    value="firstOption"
+  />
+</div>
+`;
+
+exports[`InputCollectionField should render the component correctly with warnings for each items field 1`] = `
+<div
+  className="InputCollectionField MyInputCollectionFieldField InputCollectionField__mySecondField MyInputCollectionFieldField__mySecondField"
+>
+  <InputSelectWrapper
+    className="FormInput MyInputCollectionFieldInput"
+    hidden={false}
+    key="mySecondField"
+    label="My Second Field"
+    name="mySecondField"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    options={
+      Array [
+        Object {
+          "label": "First Option",
+          "value": "firstOption",
+        },
+        Object {
+          "label": "Second Option",
+          "value": "secondOption",
+        },
+      ]
+    }
+    optionsFromData={null}
+    optionsFromDataKey=""
+    validationKeys={
+      Object {
+        "onValidate": undefined,
+        "onWarning": undefined,
+        "pattern": undefined,
+        "required": true,
+        "validationAlert": "",
+        "warningAlert": "My Second Field Warning",
+      }
+    }
+    value="firstOption"
+  />
+</div>
+`;

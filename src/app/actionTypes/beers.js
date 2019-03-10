@@ -1,0 +1,4 @@
+export const BEERS_GET = 'BEERS_GET';
+export const BEERS_GET_ERROR = 'BEERS_GET_ERROR';
+export const BEERS_GET_SUCCESS = 'BEERS_GET_SUCCESS';
+export const BEERS_RESET_ERROR = 'BEERS_RESET_ERROR';

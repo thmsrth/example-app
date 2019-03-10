@@ -1,0 +1,6 @@
+{
+  "access_token": "abcdef123456789",
+  "expires_in": 3600,
+  "token_type": "bearer",
+  "scope": "service_api"
+}

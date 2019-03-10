@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputText should render the component as a required input 1`] = `
+<div
+  className="InputText MyInputText InputText__mytext MyInputText__mytext InputText__required MyInputText__required InputText--alert MyInputText--alert"
+>
+  <label
+    className="InputText__label MyInputText__label InputText__mytext__label MyInputText__mytext__label "
+    key="mytext"
+  >
+    My Input Label*
+    <div
+      className="InputText__alertMsg MyInputText__alertMsg InputText__mytext__alertMsg MyInputText__mytext__alertMsg"
+    />
+    <input
+      className="InputText__input MyInputText__input InputText__mytext__input MyInputText__mytext__input "
+      disabled={false}
+      name="mytext"
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder=""
+      required={true}
+      type="text"
+      value="My Text"
+    />
+    <div
+      className="InputText__warningMsg MyInputText__warningMsg InputText__mytext__warningMsg MyInputText__mytext__warningMsg"
+    />
+  </label>
+</div>
+`;
+
+exports[`InputText should render the component correctly with type number 1`] = `
+<div
+  className="InputText MyInputText InputText__mynumber MyInputText__mynumber  "
+>
+  <label
+    className="InputText__label MyInputText__label InputText__mynumber__label MyInputText__mynumber__label "
+    key="mynumber"
+  >
+    My Input Label
+    <div
+      className="InputText__alertMsg MyInputText__alertMsg InputText__mynumber__alertMsg MyInputText__mynumber__alertMsg"
+    />
+    <input
+      className="InputText__input MyInputText__input InputText__mynumber__input MyInputText__mynumber__input "
+      disabled={false}
+      name="mynumber"
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder=""
+      required={false}
+      type="number"
+      value="1"
+    />
+    <div
+      className="InputText__warningMsg MyInputText__warningMsg InputText__mynumber__warningMsg MyInputText__mynumber__warningMsg"
+    />
+  </label>
+</div>
+`;
+
+exports[`InputText should render the component correctly with type text 1`] = `
+<div
+  className="InputText MyInputText InputText__mytext MyInputText__mytext  "
+>
+  <label
+    className="InputText__label MyInputText__label InputText__mytext__label MyInputText__mytext__label "
+    key="mytext"
+  >
+    My Input Label
+    <div
+      className="InputText__alertMsg MyInputText__alertMsg InputText__mytext__alertMsg MyInputText__mytext__alertMsg"
+    />
+    <input
+      className="InputText__input MyInputText__input InputText__mytext__input MyInputText__mytext__input "
+      disabled={false}
+      name="mytext"
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder=""
+      required={false}
+      type="text"
+      value="My Text"
+    />
+    <div
+      className="InputText__warningMsg MyInputText__warningMsg InputText__mytext__warningMsg MyInputText__mytext__warningMsg"
+    />
+  </label>
+</div>
+`;
+
+exports[`InputText should render the component correctly with type text as a required input 1`] = `
+<div
+  className="InputText MyInputText InputText__mytext MyInputText__mytext  "
+>
+  <label
+    className="InputText__label MyInputText__label InputText__mytext__label MyInputText__mytext__label "
+    key="mytext"
+  >
+    My Input Label
+    <div
+      className="InputText__alertMsg MyInputText__alertMsg InputText__mytext__alertMsg MyInputText__mytext__alertMsg"
+    />
+    <input
+      className="InputText__input MyInputText__input InputText__mytext__input MyInputText__mytext__input "
+      disabled={false}
+      name="mytext"
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder=""
+      required={false}
+      type="text"
+      value="My Text"
+    />
+    <div
+      className="InputText__warningMsg MyInputText__warningMsg InputText__mytext__warningMsg MyInputText__mytext__warningMsg"
+    />
+  </label>
+</div>
+`;
+
+exports[`InputText should render the component with a validation alert message 1`] = `
+<div
+  className="InputText MyInputText InputText__mytext MyInputText__mytext InputText__required MyInputText__required InputText--alert MyInputText--alert"
+>
+  <label
+    className="InputText__label MyInputText__label InputText__mytext__label MyInputText__mytext__label "
+    key="mytext"
+  >
+    My Input Label
+    <div
+      className="InputText__alertMsg MyInputText__alertMsg InputText__mytext__alertMsg MyInputText__mytext__alertMsg"
+    >
+      My validation alert message
+    </div>
+    <input
+      className="InputText__input MyInputText__input InputText__mytext__input MyInputText__mytext__input "
+      disabled={false}
+      name="mytext"
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder=""
+      type="text"
+      value="My Text"
+    />
+    <div
+      className="InputText__warningMsg MyInputText__warningMsg InputText__mytext__warningMsg MyInputText__mytext__warningMsg"
+    />
+  </label>
+</div>
+`;
+
+exports[`InputText should render the component with a warning message 1`] = `
+<div
+  className="InputText MyInputText InputText__mytext MyInputText__mytext InputText__required MyInputText__required InputText--alert MyInputText--alert"
+>
+  <label
+    className="InputText__label MyInputText__label InputText__mytext__label MyInputText__mytext__label "
+    key="mytext"
+  >
+    My Input Label
+    <div
+      className="InputText__alertMsg MyInputText__alertMsg InputText__mytext__alertMsg MyInputText__mytext__alertMsg"
+    />
+    <input
+      className="InputText__input MyInputText__input InputText__mytext__input MyInputText__mytext__input "
+      disabled={false}
+      name="mytext"
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder=""
+      type="text"
+      value="My Text"
+    />
+    <div
+      className="InputText__warningMsg MyInputText__warningMsg InputText__mytext__warningMsg MyInputText__mytext__warningMsg"
+    >
+      My warning message
+    </div>
+  </label>
+</div>
+`;

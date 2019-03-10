@@ -1,0 +1,14 @@
+.InputRadio__container {
+  display: flex;
+}
+
+.FormInput__label.InputRadioItem__label {
+  display: flex;
+  padding-top: 0;
+  align-items: baseline;
+}
+
+.FormInput__input.InputRadioItem__input {
+  flex: none;
+  width: auto;
+}

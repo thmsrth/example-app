@@ -1,0 +1,34 @@
+.Image__wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--section-margin);
+}
+
+.Image__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Image__image {
+  width: fit-content;
+  height: fit-content;
+}
+
+.Image__delete {
+  margin-right: var(--section-margin);
+  margin-left: var(--section-margin);
+  color: var(--color-action);
+  background-color: var(--action-secondary-background-color);
+  border: 0;
+  padding: 0;
+}
+
+.Image__delete__icon {
+  margin-right: 0;
+}
+
+.Button__icon.Image__delete__icon.ImageList__delete__icon.Button__icon--disabled.Image__delete__icon--disabled.ImageList__delete__icon--disabled {
+  color: var(--action-disabled-background-color);
+  background-color: var(--action-secondary-background-color);
+  border: 0;
+}

@@ -1,0 +1,327 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputRadio should render radio items components for each option correctly 1`] = `
+<div
+  className="InputRadio MyInputRadio InputRadio__type MyInputRadio__type  "
+>
+  <div
+    className="InputRadio__label MyInputRadio__label"
+  >
+    My Input Label
+  </div>
+  <div
+    className="InputRadio__alertMsg MyInputRadio__alertMsg InputRadio__type__alertMsg MyInputRadio__type__alertMsg"
+  />
+  <div
+    className="InputRadio__container MyInputRadio__container"
+  >
+    <InputRadioItemWrapper
+      className="MyInputRadio"
+      key="EMPLOYEE"
+      name="type"
+      onBlur={[Function]}
+      onChange={[Function]}
+      option={
+        Object {
+          "label": "EMPLOYEE",
+          "value": "EMPLOYEE",
+        }
+      }
+      validationKeys={
+        Object {
+          "required": false,
+          "validationAlert": "",
+          "warningAlert": "",
+        }
+      }
+      value="EMPLOYEE"
+    />
+    <InputRadioItemWrapper
+      className="MyInputRadio"
+      key="MEMBER"
+      name="type"
+      onBlur={[Function]}
+      onChange={[Function]}
+      option={
+        Object {
+          "label": "MEMBER",
+          "value": "MEMBER",
+        }
+      }
+      validationKeys={
+        Object {
+          "required": false,
+          "validationAlert": "",
+          "warningAlert": "",
+        }
+      }
+      value="EMPLOYEE"
+    />
+    <InputRadioItemWrapper
+      className="MyInputRadio"
+      key="GUEST"
+      name="type"
+      onBlur={[Function]}
+      onChange={[Function]}
+      option={
+        Object {
+          "label": "GUEST",
+          "value": "GUEST",
+        }
+      }
+      validationKeys={
+        Object {
+          "required": false,
+          "validationAlert": "",
+          "warningAlert": "",
+        }
+      }
+      value="EMPLOYEE"
+    />
+  </div>
+  <div
+    className="InputRadio__warningMsg MyInputRadio__warningMsg InputRadio__type__warningMsg MyInputRadio__type__warningMsg"
+  />
+</div>
+`;
+
+exports[`InputRadio should render the component as a required input not checked 1`] = `
+<div
+  className="InputRadio MyInputRadio InputRadio__type MyInputRadio__type InputRadio__required MyInputRadio__required InputRadio--alert MyInputRadio--alert"
+>
+  <div
+    className="InputRadio__label MyInputRadio__label"
+  >
+    My Input Label*
+  </div>
+  <div
+    className="InputRadio__alertMsg MyInputRadio__alertMsg InputRadio__type__alertMsg MyInputRadio__type__alertMsg"
+  />
+  <div
+    className="InputRadio__container MyInputRadio__container"
+  >
+    <InputRadioItemWrapper
+      className="MyInputRadio"
+      key="EMPLOYEE"
+      name="type"
+      onBlur={[Function]}
+      onChange={[Function]}
+      option={
+        Object {
+          "label": "EMPLOYEE",
+          "value": "EMPLOYEE",
+        }
+      }
+      validationKeys={
+        Object {
+          "required": true,
+        }
+      }
+      value="EMPLOYEE"
+    />
+    <InputRadioItemWrapper
+      className="MyInputRadio"
+      key="MEMBER"
+      name="type"
+      onBlur={[Function]}
+      onChange={[Function]}
+      option={
+        Object {
+          "label": "MEMBER",
+          "value": "MEMBER",
+        }
+      }
+      validationKeys={
+        Object {
+          "required": true,
+        }
+      }
+      value="EMPLOYEE"
+    />
+    <InputRadioItemWrapper
+      className="MyInputRadio"
+      key="GUEST"
+      name="type"
+      onBlur={[Function]}
+      onChange={[Function]}
+      option={
+        Object {
+          "label": "GUEST",
+          "value": "GUEST",
+        }
+      }
+      validationKeys={
+        Object {
+          "required": true,
+        }
+      }
+      value="EMPLOYEE"
+    />
+  </div>
+  <div
+    className="InputRadio__warningMsg MyInputRadio__warningMsg InputRadio__type__warningMsg MyInputRadio__type__warningMsg"
+  />
+</div>
+`;
+
+exports[`InputRadio should render the component with a validation alert message 1`] = `
+<div
+  className="InputRadio MyInputRadio InputRadio__type MyInputRadio__type InputRadio__required MyInputRadio__required InputRadio--alert MyInputRadio--alert"
+>
+  <div
+    className="InputRadio__label MyInputRadio__label"
+  >
+    My Input Label
+  </div>
+  <div
+    className="InputRadio__alertMsg MyInputRadio__alertMsg InputRadio__type__alertMsg MyInputRadio__type__alertMsg"
+  >
+    My validation alert message
+  </div>
+  <div
+    className="InputRadio__container MyInputRadio__container"
+  >
+    <InputRadioItemWrapper
+      className="MyInputRadio"
+      key="EMPLOYEE"
+      name="type"
+      onBlur={[Function]}
+      onChange={[Function]}
+      option={
+        Object {
+          "label": "EMPLOYEE",
+          "value": "EMPLOYEE",
+        }
+      }
+      validationKeys={
+        Object {
+          "validationAlert": "My validation alert message",
+        }
+      }
+      value="EMPLOYEE"
+    />
+    <InputRadioItemWrapper
+      className="MyInputRadio"
+      key="MEMBER"
+      name="type"
+      onBlur={[Function]}
+      onChange={[Function]}
+      option={
+        Object {
+          "label": "MEMBER",
+          "value": "MEMBER",
+        }
+      }
+      validationKeys={
+        Object {
+          "validationAlert": "My validation alert message",
+        }
+      }
+      value="EMPLOYEE"
+    />
+    <InputRadioItemWrapper
+      className="MyInputRadio"
+      key="GUEST"
+      name="type"
+      onBlur={[Function]}
+      onChange={[Function]}
+      option={
+        Object {
+          "label": "GUEST",
+          "value": "GUEST",
+        }
+      }
+      validationKeys={
+        Object {
+          "validationAlert": "My validation alert message",
+        }
+      }
+      value="EMPLOYEE"
+    />
+  </div>
+  <div
+    className="InputRadio__warningMsg MyInputRadio__warningMsg InputRadio__type__warningMsg MyInputRadio__type__warningMsg"
+  />
+</div>
+`;
+
+exports[`InputRadio should render the component with a warning message 1`] = `
+<div
+  className="InputRadio MyInputRadio InputRadio__type MyInputRadio__type InputRadio__required MyInputRadio__required InputRadio--alert MyInputRadio--alert"
+>
+  <div
+    className="InputRadio__label MyInputRadio__label"
+  >
+    My Input Label
+  </div>
+  <div
+    className="InputRadio__alertMsg MyInputRadio__alertMsg InputRadio__type__alertMsg MyInputRadio__type__alertMsg"
+  />
+  <div
+    className="InputRadio__container MyInputRadio__container"
+  >
+    <InputRadioItemWrapper
+      className="MyInputRadio"
+      key="EMPLOYEE"
+      name="type"
+      onBlur={[Function]}
+      onChange={[Function]}
+      option={
+        Object {
+          "label": "EMPLOYEE",
+          "value": "EMPLOYEE",
+        }
+      }
+      validationKeys={
+        Object {
+          "warningAlert": "My warning message",
+        }
+      }
+      value="EMPLOYEE"
+    />
+    <InputRadioItemWrapper
+      className="MyInputRadio"
+      key="MEMBER"
+      name="type"
+      onBlur={[Function]}
+      onChange={[Function]}
+      option={
+        Object {
+          "label": "MEMBER",
+          "value": "MEMBER",
+        }
+      }
+      validationKeys={
+        Object {
+          "warningAlert": "My warning message",
+        }
+      }
+      value="EMPLOYEE"
+    />
+    <InputRadioItemWrapper
+      className="MyInputRadio"
+      key="GUEST"
+      name="type"
+      onBlur={[Function]}
+      onChange={[Function]}
+      option={
+        Object {
+          "label": "GUEST",
+          "value": "GUEST",
+        }
+      }
+      validationKeys={
+        Object {
+          "warningAlert": "My warning message",
+        }
+      }
+      value="EMPLOYEE"
+    />
+  </div>
+  <div
+    className="InputRadio__warningMsg MyInputRadio__warningMsg InputRadio__type__warningMsg MyInputRadio__type__warningMsg"
+  >
+    My warning message
+  </div>
+</div>
+`;

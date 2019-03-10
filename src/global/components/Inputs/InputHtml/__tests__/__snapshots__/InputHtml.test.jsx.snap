@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputHtml should render the component as a required input 1`] = `
+<div
+  className="InputHtml MyInputText InputHtml__mytext MyInputText__mytext InputHtml__required MyInputText__required InputHtml--alert MyInputText--alert"
+>
+  <label
+    className="InputHtml__label MyInputText__label InputHtml__mytext__label MyInputText__mytext__label "
+    key="mytext"
+  >
+    My Input Label*
+    <div
+      className="InputHtml__alertMsg MyInputText__alertMsg InputHtml__mytext__alertMsg MyInputText__mytext__alertMsg"
+    />
+    <HtmlEditorView
+      className="InputHtml__input MyInputText__input InputHtml__mytext__input MyInputText__mytext__input "
+      disabled={false}
+      name="mytext"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onValidate={[Function]}
+      readOnly={false}
+      required={true}
+      value="My Text"
+    />
+  </label>
+  <div
+    className="InputHtml__warningMsg MyInputText__warningMsg InputHtml__mytext__warningMsg MyInputText__mytext__warningMsg"
+  />
+</div>
+`;
+
+exports[`InputHtml should render the component correctly with type text 1`] = `
+<div
+  className="InputHtml MyInputText InputHtml__mytext MyInputText__mytext  "
+>
+  <label
+    className="InputHtml__label MyInputText__label InputHtml__mytext__label MyInputText__mytext__label "
+    key="mytext"
+  >
+    My Input Label
+    <div
+      className="InputHtml__alertMsg MyInputText__alertMsg InputHtml__mytext__alertMsg MyInputText__mytext__alertMsg"
+    />
+    <HtmlEditorView
+      className="InputHtml__input MyInputText__input InputHtml__mytext__input MyInputText__mytext__input "
+      disabled={false}
+      name="mytext"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onValidate={[Function]}
+      readOnly={false}
+      required={false}
+      value="My Text"
+    />
+  </label>
+  <div
+    className="InputHtml__warningMsg MyInputText__warningMsg InputHtml__mytext__warningMsg MyInputText__mytext__warningMsg"
+  />
+</div>
+`;
+
+exports[`InputHtml should render the component with a validation alert message 1`] = `
+<div
+  className="InputHtml MyInputText InputHtml__mytext MyInputText__mytext InputHtml__required MyInputText__required InputHtml--alert MyInputText--alert"
+>
+  <label
+    className="InputHtml__label MyInputText__label InputHtml__mytext__label MyInputText__mytext__label "
+    key="mytext"
+  >
+    My Input Label
+    <div
+      className="InputHtml__alertMsg MyInputText__alertMsg InputHtml__mytext__alertMsg MyInputText__mytext__alertMsg"
+    >
+      My validation alert message
+    </div>
+    <HtmlEditorView
+      className="InputHtml__input MyInputText__input InputHtml__mytext__input MyInputText__mytext__input "
+      disabled={false}
+      name="mytext"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onValidate={[Function]}
+      readOnly={false}
+      required={false}
+      value="My Text"
+    />
+  </label>
+  <div
+    className="InputHtml__warningMsg MyInputText__warningMsg InputHtml__mytext__warningMsg MyInputText__mytext__warningMsg"
+  />
+</div>
+`;
+
+exports[`InputHtml should render the component with a warning message 1`] = `
+<div
+  className="InputHtml MyInputText InputHtml__mytext MyInputText__mytext InputHtml__required MyInputText__required InputHtml--alert MyInputText--alert"
+>
+  <label
+    className="InputHtml__label MyInputText__label InputHtml__mytext__label MyInputText__mytext__label "
+    key="mytext"
+  >
+    My Input Label
+    <div
+      className="InputHtml__alertMsg MyInputText__alertMsg InputHtml__mytext__alertMsg MyInputText__mytext__alertMsg"
+    />
+    <HtmlEditorView
+      className="InputHtml__input MyInputText__input InputHtml__mytext__input MyInputText__mytext__input "
+      disabled={false}
+      name="mytext"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onValidate={[Function]}
+      readOnly={false}
+      required={false}
+      value="My Text"
+    />
+  </label>
+  <div
+    className="InputHtml__warningMsg MyInputText__warningMsg InputHtml__mytext__warningMsg MyInputText__mytext__warningMsg"
+  >
+    My warning message
+  </div>
+</div>
+`;

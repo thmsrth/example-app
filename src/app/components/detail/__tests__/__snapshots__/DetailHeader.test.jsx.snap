@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailHeader should render the component correctly 1`] = `
+<div
+  className="DetailHeader"
+>
+  <div
+    className="DetailHeader__container"
+  >
+    <div
+      className="DetailHeader__header"
+    >
+      <div
+        className="DetailHeaderBack"
+      >
+        <ButtonWrapper
+          className="DetailHeaderBack__button"
+          iconName="arrow-circle-left"
+          onClick={[Function]}
+          params={Object {}}
+          text="Back"
+        />
+      </div>
+      <h2
+        className="DetailHeader__title"
+      />
+    </div>
+    <div
+      className="DetailHeader__actions"
+    >
+      <DetailHeaderActionsWrapper
+        dataPaginationOffset={0}
+        dataPaginationSize={25}
+        deleteData={[Function]}
+        item={Object {}}
+      />
+    </div>
+  </div>
+</div>
+`;

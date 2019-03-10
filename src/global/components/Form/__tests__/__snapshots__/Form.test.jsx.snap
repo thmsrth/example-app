@@ -1,0 +1,411 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form should render the component correctly for the create action with data 1`] = `
+<form
+  action="create"
+  id="MyClassForm"
+  name="MyClassForm"
+  onSubmit={[Function]}
+>
+  <fieldset
+    className="Form__form MyClassForm__form"
+    disabled={false}
+  >
+    <div
+      className="Form__fields MyClassForm__fields"
+    >
+      <InputTextWrapper
+        className="FormInput MyClassFormInput"
+        hidden={false}
+        key="name"
+        label="Name (internal use)*"
+        name="name"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        validationKeys={
+          Object {
+            "onValidate": undefined,
+            "onWarning": undefined,
+            "pattern": undefined,
+            "required": true,
+            "validationAlert": "",
+            "warningAlert": "",
+          }
+        }
+        value="My Name"
+      />
+      <InputTextWrapper
+        className="FormInput MyClassFormInput"
+        hidden={false}
+        key="description"
+        label="Description (internal use)"
+        name="description"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        validationKeys={
+          Object {
+            "onValidate": undefined,
+            "onWarning": undefined,
+            "pattern": undefined,
+            "required": undefined,
+            "validationAlert": "",
+            "warningAlert": "",
+          }
+        }
+        value="My Description"
+      />
+    </div>
+    <div
+      className="Form__formActions MyClassForm__formActions"
+    >
+      <ButtonWrapper
+        className="Form__cancel MyClassForm__cancel"
+        disabled={false}
+        iconName="remove"
+        onClick={[Function]}
+        params={Object {}}
+        text="Cancel"
+      />
+      <ButtonWrapper
+        className="Form__submit MyClassForm__submit Form__submit__create MyClassForm__submit__create"
+        iconName="check"
+        loading={false}
+        onClick={[Function]}
+        params={Object {}}
+        text="Create"
+        type="submit"
+      />
+    </div>
+  </fieldset>
+</form>
+`;
+
+exports[`Form should render the component correctly for the edit action with data 1`] = `
+<form
+  action="edit"
+  id="MyClassForm"
+  name="MyClassForm"
+  onSubmit={[Function]}
+>
+  <fieldset
+    className="Form__form MyClassForm__form"
+    disabled={false}
+  >
+    <div
+      className="Form__fields MyClassForm__fields"
+    >
+      <InputTextWrapper
+        className="FormInput MyClassFormInput"
+        hidden={false}
+        key="name"
+        label="Name (internal use)*"
+        name="name"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        validationKeys={
+          Object {
+            "onValidate": undefined,
+            "onWarning": undefined,
+            "pattern": undefined,
+            "required": true,
+            "validationAlert": "",
+            "warningAlert": "",
+          }
+        }
+        value="My Name"
+      />
+      <InputTextWrapper
+        className="FormInput MyClassFormInput"
+        hidden={false}
+        key="description"
+        label="Description (internal use)"
+        name="description"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        validationKeys={
+          Object {
+            "onValidate": undefined,
+            "onWarning": undefined,
+            "pattern": undefined,
+            "required": undefined,
+            "validationAlert": "",
+            "warningAlert": "",
+          }
+        }
+        value="My Description"
+      />
+    </div>
+    <div
+      className="Form__formActions MyClassForm__formActions"
+    >
+      <ButtonWrapper
+        className="Form__cancel MyClassForm__cancel"
+        disabled={false}
+        iconName="remove"
+        onClick={[Function]}
+        params={Object {}}
+        text="Cancel"
+      />
+      <ButtonWrapper
+        className="Form__submit MyClassForm__submit Form__submit__edit MyClassForm__submit__edit"
+        iconName="check"
+        loading={false}
+        onClick={[Function]}
+        params={Object {}}
+        text="Save"
+        type="submit"
+      />
+    </div>
+  </fieldset>
+</form>
+`;
+
+exports[`Form should render the component correctly with form/fieldset disabled while loading 1`] = `
+<form
+  action="edit"
+  id="MyClassForm"
+  name="MyClassForm"
+  onSubmit={[Function]}
+>
+  <fieldset
+    className="Form__form MyClassForm__form"
+    disabled={true}
+  >
+    <div
+      className="Form__fields MyClassForm__fields"
+    >
+      <InputTextWrapper
+        className="FormInput MyClassFormInput"
+        hidden={false}
+        key="name"
+        label="Name (internal use)*"
+        name="name"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        validationKeys={
+          Object {
+            "onValidate": undefined,
+            "onWarning": undefined,
+            "pattern": undefined,
+            "required": true,
+            "validationAlert": "",
+            "warningAlert": "",
+          }
+        }
+        value="My Name"
+      />
+      <InputTextWrapper
+        className="FormInput MyClassFormInput"
+        hidden={false}
+        key="description"
+        label="Description (internal use)"
+        name="description"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        validationKeys={
+          Object {
+            "onValidate": undefined,
+            "onWarning": undefined,
+            "pattern": undefined,
+            "required": undefined,
+            "validationAlert": "",
+            "warningAlert": "",
+          }
+        }
+        value="My Description"
+      />
+    </div>
+    <div
+      className="Form__formActions MyClassForm__formActions"
+    >
+      <ButtonWrapper
+        className="Form__cancel MyClassForm__cancel"
+        disabled={true}
+        iconName="remove"
+        onClick={[Function]}
+        params={Object {}}
+        text="Cancel"
+      />
+      <ButtonWrapper
+        className="Form__submit MyClassForm__submit Form__submit__edit MyClassForm__submit__edit"
+        iconName="check"
+        loading={true}
+        onClick={[Function]}
+        params={Object {}}
+        text="Save"
+        type="submit"
+      />
+    </div>
+  </fieldset>
+</form>
+`;
+
+exports[`Form should render the component correctly with validation alert message for each field 1`] = `
+<form
+  action="edit"
+  id="MyClassForm"
+  name="MyClassForm"
+  onSubmit={[Function]}
+>
+  <fieldset
+    className="Form__form MyClassForm__form"
+    disabled={false}
+  >
+    <div
+      className="Form__fields MyClassForm__fields"
+    >
+      <InputTextWrapper
+        className="FormInput MyClassFormInput"
+        hidden={false}
+        key="name"
+        label="Name (internal use)*"
+        name="name"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        validationKeys={
+          Object {
+            "onValidate": undefined,
+            "onWarning": undefined,
+            "pattern": undefined,
+            "required": true,
+            "validationAlert": "My Validation Alert Message",
+            "warningAlert": "",
+          }
+        }
+        value="My Name"
+      />
+      <InputTextWrapper
+        className="FormInput MyClassFormInput"
+        hidden={false}
+        key="description"
+        label="Description (internal use)"
+        name="description"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        validationKeys={
+          Object {
+            "onValidate": undefined,
+            "onWarning": undefined,
+            "pattern": undefined,
+            "required": undefined,
+            "validationAlert": "My Validation Alert Message",
+            "warningAlert": "",
+          }
+        }
+        value="My Description"
+      />
+    </div>
+    <div
+      className="Form__formActions MyClassForm__formActions"
+    >
+      <ButtonWrapper
+        className="Form__cancel MyClassForm__cancel"
+        disabled={false}
+        iconName="remove"
+        onClick={[Function]}
+        params={Object {}}
+        text="Cancel"
+      />
+      <ButtonWrapper
+        className="Form__submit MyClassForm__submit Form__submit__edit MyClassForm__submit__edit"
+        iconName="check"
+        loading={false}
+        onClick={[Function]}
+        params={Object {}}
+        text="Save"
+        type="submit"
+      />
+    </div>
+  </fieldset>
+</form>
+`;
+
+exports[`Form should render the component correctly with warning message for each field 1`] = `
+<form
+  action="edit"
+  id="MyClassForm"
+  name="MyClassForm"
+  onSubmit={[Function]}
+>
+  <fieldset
+    className="Form__form MyClassForm__form"
+    disabled={false}
+  >
+    <div
+      className="Form__fields MyClassForm__fields"
+    >
+      <InputTextWrapper
+        className="FormInput MyClassFormInput"
+        hidden={false}
+        key="name"
+        label="Name (internal use)*"
+        name="name"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        validationKeys={
+          Object {
+            "onValidate": undefined,
+            "onWarning": undefined,
+            "pattern": undefined,
+            "required": true,
+            "validationAlert": "",
+            "warningAlert": "My Warning Message",
+          }
+        }
+        value="My Name"
+      />
+      <InputTextWrapper
+        className="FormInput MyClassFormInput"
+        hidden={false}
+        key="description"
+        label="Description (internal use)"
+        name="description"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        validationKeys={
+          Object {
+            "onValidate": undefined,
+            "onWarning": undefined,
+            "pattern": undefined,
+            "required": undefined,
+            "validationAlert": "",
+            "warningAlert": "My Warning Message",
+          }
+        }
+        value="My Description"
+      />
+    </div>
+    <div
+      className="Form__formActions MyClassForm__formActions"
+    >
+      <ButtonWrapper
+        className="Form__cancel MyClassForm__cancel"
+        disabled={false}
+        iconName="remove"
+        onClick={[Function]}
+        params={Object {}}
+        text="Cancel"
+      />
+      <ButtonWrapper
+        className="Form__submit MyClassForm__submit Form__submit__edit MyClassForm__submit__edit"
+        iconName="check"
+        loading={false}
+        onClick={[Function]}
+        params={Object {}}
+        text="Save"
+        type="submit"
+      />
+    </div>
+  </fieldset>
+</form>
+`;

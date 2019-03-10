@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailHeaderActions should render the component correctly 1`] = `
+<div
+  className="DetailHeaderActions"
+>
+  <div
+    className="DetailHeaderActions__container"
+  >
+    <ButtonWrapper
+      className="DetailHeaderActions__button"
+      disabled={true}
+      iconName="beer"
+      onClick={[Function]}
+      params={Object {}}
+      text="Disabled action"
+    />
+    <ButtonWrapper
+      className="DetailHeaderActions__button"
+      disabled={false}
+      iconName="edit"
+      onClick={[Function]}
+      params={Object {}}
+      text="Edit"
+    />
+    <ButtonWrapper
+      className="DetailHeaderActions__button DetailHeaderActions__button__delete"
+      disabled={false}
+      iconName="trash"
+      loading={false}
+      onClick={[Function]}
+      params={Object {}}
+      text="Delete"
+    />
+  </div>
+</div>
+`;
+
+exports[`DetailHeaderActions should render the component correctly with loading 1`] = `
+<div
+  className="DetailHeaderActions"
+>
+  <div
+    className="DetailHeaderActions__container"
+  >
+    <ButtonWrapper
+      className="DetailHeaderActions__button"
+      disabled={true}
+      iconName="beer"
+      onClick={[Function]}
+      params={Object {}}
+      text="Disabled action"
+    />
+    <ButtonWrapper
+      className="DetailHeaderActions__button"
+      disabled={false}
+      iconName="edit"
+      onClick={[Function]}
+      params={Object {}}
+      text="Edit"
+    />
+    <ButtonWrapper
+      className="DetailHeaderActions__button DetailHeaderActions__button__delete"
+      disabled={false}
+      iconName="trash"
+      loading={true}
+      onClick={[Function]}
+      params={Object {}}
+      text="Delete"
+    />
+  </div>
+</div>
+`;

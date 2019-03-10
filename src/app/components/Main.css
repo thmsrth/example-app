@@ -1,0 +1,67 @@
+.Main {
+  position: relative;
+}
+
+.Main--error{
+  box-shadow: var(--section-box-shadow);
+  padding: var(--section-padding);
+  margin: var(--section-margin);
+  background-color: var(--section-background-color);
+  border-top: var(--section-border-top);
+  border-radius: var(--section-border-radius);
+  text-align: center;
+}
+
+.Main__container--loading {
+  opacity: 0.5;
+}
+
+.Main__actions {
+  position: absolute;
+  padding: var(--section-padding);
+  text-align: center;
+  width: 100%;
+  margin: 3px 0;
+  z-index: 99;
+}
+
+.Main__icon {
+  margin-right: var(--space);
+}
+
+.Main__states {
+  display: inline-flex;
+  align-items: center;
+}
+
+.MainBack {
+  padding: 0 var(--section-padding);
+}
+
+.MainBack__button__text,
+.MainBack__button__icon {
+  color: var(--color-black);
+}
+
+.Main__light {
+  padding: calc(var(--space) / 10) calc(var(--space) / 4);
+  border-radius: 10px;
+  color: var(--color-white);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.Main__light--green {
+  background-color: var(--color-confirm);
+}
+
+.Main__light--red {
+  background-color: var(--color-alert);
+}
+
+.Main__image--xs {
+  height: auto;
+  width: auto;
+  max-height: 248px;
+  max-width: 248px;
+}

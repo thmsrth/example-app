@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image should render the component correctly 1`] = `
+<div
+  className="Image__wrapper MyImage__wrapper"
+>
+  <label
+    className="Image__label MyImage__label"
+  >
+    Image
+  </label>
+  <div
+    className="Image__container MyImage__container"
+  >
+    <img
+      alt="image"
+      className="Image__image MyImage__image"
+      src="/folder/img.jpg"
+    />
+  </div>
+</div>
+`;
+
+exports[`Image should render the component correctly with no image 1`] = `
+<div
+  className="Image__wrapper MyImage__wrapper"
+>
+  <label
+    className="Image__label MyImage__label"
+  >
+    Label with no image
+  </label>
+  <div
+    className="Image__container MyImage__container"
+  >
+    No image
+  </div>
+</div>
+`;

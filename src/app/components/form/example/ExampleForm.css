@@ -1,0 +1,56 @@
+.ExampleForm {
+  margin: var(--section-margin);
+  background-color: var(--section-background-color);
+  box-shadow: var(--section-box-shadow);
+  border-radius: var(--section-border-radius);
+  border-top: var(--section-form-border-top);
+}
+
+.ExampleForm__container {
+  width: 100%;
+  padding: calc(var(--section-padding) * 2);
+  background-color: var(--form-background-color);
+  position: relative;
+}
+
+.ExampleForm__icon {
+  margin-right: var(--space);
+}
+
+.ExampleForm__header {
+  width: 100%;
+  padding: var(--section-header-padding);
+  border-bottom: var(--section-header-border-bottom);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ExampleForm__title {
+  font-size: var(--section-title-font-size);
+  margin: var(--section-title-margin);
+}
+
+.ExampleForm__close {
+  background: none;
+  border: none;
+}
+
+.ExampleForm__close.Button__icon {
+  margin: 0;
+}
+
+.ExampleForm__close__icon {
+  color: var(--action-cancel-background-color);
+}
+
+.ExampleForm__form {
+  width: 40%;
+  min-width: 600px;
+}
+
+.ExampleFormInput__rentAmount,
+.ExampleFormInput__rentCurrencyCode {
+  width: 50%;
+  display: inline-flex;
+}

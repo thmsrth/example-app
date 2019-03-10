@@ -1,0 +1,53 @@
+.FormInput__input.InputImage__input {
+  width: calc(100% - 120px);
+  display: inline-block;
+}
+
+.InputImage__upload {
+  width: 120px;
+  margin: calc(var(--section-margin) / 2) 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  display: inline-block;
+  /* to align upload button to inputfield image */
+  padding: calc(var(--button-space) / 2.5) calc(var(--button-space) / 2);
+}
+
+.InputImage__upload--uploaded {
+  background-color: var(--color-white);
+  border: none;
+}
+
+.InputImage__upload--uploaded .Button__text,
+.InputImage__upload--uploaded .Button__icon {
+  color: var(--color-confirm);
+}
+
+.InputImage__upload--uploaded:hover {
+  cursor: default;
+}
+
+.InputImage__image {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 var(--section-padding);
+}
+
+.InputImage__delete {
+  color: var(--action-secondary-color);
+  background-color: var(--action-secondary-background-color);
+  border: none;
+  font-size: 1.3em;
+  padding: 0 var(--section-padding);
+}
+
+.InputImage__alertMsg,
+.InputImage__warningMsg,
+.FormInput__label.InputImage__label__bottom {
+  padding: 0 var(--section-padding);
+}
+
+.FormInput__label.InputImage__label__top {
+  padding-bottom: 0;
+}

@@ -1,0 +1,52 @@
+.DataStateNotifier {
+  position: relative;
+}
+
+.DataStateNotifier--error{
+  box-shadow: var(--section-box-shadow);
+  padding: var(--section-padding);
+  margin: var(--section-margin);
+  background-color: var(--section-background-color);
+  border-top: var(--section-border-top);
+  border-radius: var(--section-border-radius);
+  text-align: center;
+}
+
+.DataStateNotifier__container--loading,
+.DataStateNotifier__container--adding,
+.DataStateNotifier__container--updating,
+.DataStateNotifier__container--deleting {
+  opacity: 0.5;
+}
+
+.DataStateNotifier__actions {
+  position: absolute;
+  padding: var(--section-padding);
+  text-align: center;
+  width: 100%;
+  margin: 3px 0;
+  z-index: 99;
+}
+
+.DataStateNotifier__icon {
+  margin-right: var(--space);
+}
+
+.DataStateNotifier__states {
+  align-items: center;
+  padding: var(--section-padding);
+}
+
+.DataStateNotifier__error {
+  margin: 0 0 calc(var(--section-margin) * 2);
+  font-size: 15px;
+  color: var(--color-black);
+}
+
+.DataStateNotifier__back {
+  margin: 0 var(--space);
+}
+
+.DataStateNotifier__back__button {
+  margin: 0 auto !important;
+}

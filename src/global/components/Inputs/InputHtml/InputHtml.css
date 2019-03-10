@@ -1,0 +1,5 @@
+.InputHtml__input {
+  border: 1px solid var(--border-color);
+  padding: var(--section-padding);
+  max-height: 300px;
+}

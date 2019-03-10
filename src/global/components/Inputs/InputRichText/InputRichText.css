@@ -1,0 +1,17 @@
+.InputRichText__input {
+  border: 1px solid var(--border-color);
+  padding: var(--section-padding);
+  max-height: 300px;
+}
+
+.InputRichText .ql-editor {
+  min-height: 300px;
+}
+
+.InputRichText .ql-editor p {
+  font-weight: 400;
+}
+
+.InputRichText--alert .ql-editor {
+  border: 1px solid var(--form-input-alert-message-color);
+}

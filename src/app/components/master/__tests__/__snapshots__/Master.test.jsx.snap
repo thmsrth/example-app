@@ -1,0 +1,244 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Master should render the component correctly 1`] = `
+<DataStateNotifier
+  data={
+    Array [
+      Object {
+        "calories": 266,
+        "createdAt": "2018-10-28T14:48:54.01293",
+        "createdBy": "thomas",
+        "fat": 34,
+        "id": 1,
+        "name": "Pizza",
+        "protein": 0.6,
+        "status": "UNHEALTHY",
+        "updatedAt": null,
+        "updatedBy": null,
+      },
+      Object {
+        "calories": 508,
+        "createdAt": "2018-11-28T04:48:54.01293",
+        "createdBy": "tommy",
+        "fat": 1,
+        "id": 2,
+        "name": "Sushi",
+        "protein": 26.7,
+        "status": "HEALTHY",
+        "updatedAt": null,
+        "updatedBy": null,
+      },
+      Object {
+        "calories": 271,
+        "createdAt": "2018-12-28T14:48:54.01293",
+        "createdBy": "ben",
+        "fat": 1.3,
+        "id": 3,
+        "name": "Steak",
+        "protein": 6.6,
+        "status": "UNHEALTHY",
+        "updatedAt": "2018-12-29T12:48:54.01293",
+        "updatedBy": "thomas",
+      },
+    ]
+  }
+  dataAdding=""
+  dataDeleting=""
+  dataError=""
+  dataLoading=""
+  dataUpdating=""
+  resetDataError={[Function]}
+>
+  <div
+    className="Master"
+  >
+    <div
+      className="Master__header"
+    >
+      <h3
+        className="Master__title"
+      >
+        Food
+      </h3>
+    </div>
+    <div
+      className="Master__container"
+    >
+      <MasterFilter
+        data={
+          Array [
+            Object {
+              "calories": 266,
+              "createdAt": "2018-10-28T14:48:54.01293",
+              "createdBy": "thomas",
+              "fat": 34,
+              "id": 1,
+              "name": "Pizza",
+              "protein": 0.6,
+              "status": "UNHEALTHY",
+              "updatedAt": null,
+              "updatedBy": null,
+            },
+            Object {
+              "calories": 508,
+              "createdAt": "2018-11-28T04:48:54.01293",
+              "createdBy": "tommy",
+              "fat": 1,
+              "id": 2,
+              "name": "Sushi",
+              "protein": 26.7,
+              "status": "HEALTHY",
+              "updatedAt": null,
+              "updatedBy": null,
+            },
+            Object {
+              "calories": 271,
+              "createdAt": "2018-12-28T14:48:54.01293",
+              "createdBy": "ben",
+              "fat": 1.3,
+              "id": 3,
+              "name": "Steak",
+              "protein": 6.6,
+              "status": "UNHEALTHY",
+              "updatedAt": "2018-12-29T12:48:54.01293",
+              "updatedBy": "thomas",
+            },
+          ]
+        }
+        dataError=""
+        dataFilters={Object {}}
+        dataLoading=""
+        fetchFilteredItems={[Function]}
+        filters={
+          Array [
+            Object {
+              "name": "id",
+              "title": "ID:",
+              "type": "number",
+            },
+            Object {
+              "name": "name",
+              "title": "Name:",
+              "type": "text",
+            },
+            Object {
+              "dateMax": "2099-12-31",
+              "dateMin": "2012-01-01",
+              "name": "createdAt",
+              "pattern": "[0-9]{4}-[0-9]{2}-[0-9]{2}",
+              "placeholder": "yyyy-mm-dd",
+              "range": true,
+              "title": "Created At:",
+              "type": "datetime",
+            },
+            Object {
+              "name": "createdBy",
+              "title": "Created by:",
+              "type": "text",
+            },
+            Object {
+              "dateMax": "2099-12-31",
+              "dateMin": "2012-01-01",
+              "name": "updatedAt",
+              "pattern": "[0-9]{4}-[0-9]{2}-[0-9]{2}",
+              "placeholder": "yyyy-mm-dd",
+              "range": true,
+              "title": "Updated At:",
+              "type": "datetime",
+            },
+            Object {
+              "name": "updatedBy",
+              "title": "Updated by:",
+              "type": "text",
+            },
+          ]
+        }
+        handleFilterItems={[Function]}
+      />
+      <MasterActions
+        data={
+          Array [
+            Object {
+              "calories": 266,
+              "createdAt": "2018-10-28T14:48:54.01293",
+              "createdBy": "thomas",
+              "fat": 34,
+              "id": 1,
+              "name": "Pizza",
+              "protein": 0.6,
+              "status": "UNHEALTHY",
+              "updatedAt": null,
+              "updatedBy": null,
+            },
+            Object {
+              "calories": 508,
+              "createdAt": "2018-11-28T04:48:54.01293",
+              "createdBy": "tommy",
+              "fat": 1,
+              "id": 2,
+              "name": "Sushi",
+              "protein": 26.7,
+              "status": "HEALTHY",
+              "updatedAt": null,
+              "updatedBy": null,
+            },
+            Object {
+              "calories": 271,
+              "createdAt": "2018-12-28T14:48:54.01293",
+              "createdBy": "ben",
+              "fat": 1.3,
+              "id": 3,
+              "name": "Steak",
+              "protein": 6.6,
+              "status": "UNHEALTHY",
+              "updatedAt": "2018-12-29T12:48:54.01293",
+              "updatedBy": "thomas",
+            },
+          ]
+        }
+        dataError=""
+        dataLoading=""
+      />
+      <MasterList
+        data={Array []}
+        dataError=""
+        dataLoading=""
+        dataPagination={
+          Object {
+            "number": 0,
+            "numberOfElements": 0,
+            "size": 25,
+            "totalElements": 0,
+            "totalPages": 1,
+          }
+        }
+        dataSort={
+          Object {
+            "direction": "DESC",
+            "property": "createdAt",
+          }
+        }
+        fetchSortedItems={[Function]}
+      />
+      <MasterPagination
+        data={Array []}
+        dataError=""
+        dataLoading=""
+        dataPageSize={25}
+        dataPagination={
+          Object {
+            "number": 0,
+            "numberOfElements": 0,
+            "size": 25,
+            "totalElements": 0,
+            "totalPages": 1,
+          }
+        }
+        dataSortParam="id,ASC"
+        onPageNumberChange={[Function]}
+        onSizeChange={[Function]}
+      />
+    </div>
+  </div>
+</DataStateNotifier>
+`;

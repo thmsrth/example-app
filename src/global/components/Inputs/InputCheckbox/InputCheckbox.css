@@ -1,0 +1,3 @@
+.InputCheckbox--alert .InputCheckbox__options {
+  border: 1px solid var(--form-input-alert-message-color);
+}

@@ -1,0 +1,383 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputCheckbox should render the component as a required input 1`] = `
+<ul
+  className="InputCheckbox MyInputCheckbox InputCheckbox__mycheckbox MyInputCheckbox__mycheckbox InputCheckbox__required MyInputCheckbox__required InputCheckbox--alert MyInputCheckbox--alert"
+>
+  <div
+    className="InputCheckbox__label MyInputCheckbox__label "
+  >
+    My Input Label*
+    <div
+      className="InputCheckbox__alertMsg MyInputCheckbox__alertMsg InputCheckbox__mycheckbox__alertMsg MyInputCheckbox__mycheckbox__alertMsg"
+    />
+    <div
+      className="InputCheckbox__options MyInputCheckbox__options"
+    >
+      <li
+        className="InputCheckbox MyInputCheckbox "
+        key="1"
+      >
+        <div
+          className="InputCheckbox__container MyInputCheckbox__container"
+        >
+          <InputCheckboxItemWrapper
+            className="InputCheckbox__item MyInputCheckbox__item"
+            disabled={false}
+            label="Hi"
+            name="mycheckbox"
+            onBlur={[Function]}
+            onChange={[Function]}
+            option={1}
+            type="checkbox"
+            validationKeys={
+              Object {
+                "required": true,
+              }
+            }
+            value={null}
+          />
+        </div>
+      </li>
+      <li
+        className="InputCheckbox MyInputCheckbox "
+        key="2"
+      >
+        <div
+          className="InputCheckbox__container MyInputCheckbox__container"
+        >
+          <InputCheckboxItemWrapper
+            className="InputCheckbox__item MyInputCheckbox__item"
+            disabled={false}
+            label="Ho"
+            name="mycheckbox"
+            onBlur={[Function]}
+            onChange={[Function]}
+            option={2}
+            type="checkbox"
+            validationKeys={
+              Object {
+                "required": true,
+              }
+            }
+            value={null}
+          />
+        </div>
+      </li>
+    </div>
+    <div
+      className="InputCheckbox__warningMsg MyInputCheckbox__warningMsg InputCheckbox__mycheckbox__warningMsg MyInputCheckbox__mycheckbox__warningMsg"
+    />
+  </div>
+</ul>
+`;
+
+exports[`InputCheckbox should render the component correctly and return a false default value 1`] = `
+<ul
+  className="InputCheckbox MyInputCheckbox InputCheckbox__mycheckbox MyInputCheckbox__mycheckbox  "
+>
+  <div
+    className="InputCheckbox__label MyInputCheckbox__label "
+  >
+    My Input Label
+    <div
+      className="InputCheckbox__alertMsg MyInputCheckbox__alertMsg InputCheckbox__mycheckbox__alertMsg MyInputCheckbox__mycheckbox__alertMsg"
+    />
+    <div
+      className="InputCheckbox__options MyInputCheckbox__options"
+    >
+      <li
+        className="InputCheckbox MyInputCheckbox "
+        key="1"
+      >
+        <div
+          className="InputCheckbox__container MyInputCheckbox__container"
+        >
+          <InputCheckboxItemWrapper
+            className="InputCheckbox__item MyInputCheckbox__item"
+            disabled={false}
+            label="Hi"
+            name="mycheckbox"
+            onBlur={[Function]}
+            onChange={[Function]}
+            option={1}
+            type="checkbox"
+            validationKeys={
+              Object {
+                "required": false,
+                "validationAlert": "",
+                "warningAlert": "",
+              }
+            }
+            value={null}
+          />
+        </div>
+      </li>
+      <li
+        className="InputCheckbox MyInputCheckbox "
+        key="2"
+      >
+        <div
+          className="InputCheckbox__container MyInputCheckbox__container"
+        >
+          <InputCheckboxItemWrapper
+            className="InputCheckbox__item MyInputCheckbox__item"
+            disabled={false}
+            label="Ho"
+            name="mycheckbox"
+            onBlur={[Function]}
+            onChange={[Function]}
+            option={2}
+            type="checkbox"
+            validationKeys={
+              Object {
+                "required": false,
+                "validationAlert": "",
+                "warningAlert": "",
+              }
+            }
+            value={null}
+          />
+        </div>
+      </li>
+    </div>
+    <div
+      className="InputCheckbox__warningMsg MyInputCheckbox__warningMsg InputCheckbox__mycheckbox__warningMsg MyInputCheckbox__mycheckbox__warningMsg"
+    />
+  </div>
+</ul>
+`;
+
+exports[`InputCheckbox should render the component correctly and value 1: true, 2: false 1`] = `
+<ul
+  className="InputCheckbox MyInputCheckbox InputCheckbox__mycheckbox MyInputCheckbox__mycheckbox  "
+>
+  <div
+    className="InputCheckbox__label MyInputCheckbox__label "
+  >
+    My Input Label
+    <div
+      className="InputCheckbox__alertMsg MyInputCheckbox__alertMsg InputCheckbox__mycheckbox__alertMsg MyInputCheckbox__mycheckbox__alertMsg"
+    />
+    <div
+      className="InputCheckbox__options MyInputCheckbox__options"
+    >
+      <li
+        className="InputCheckbox MyInputCheckbox InputCheckbox--active MyInputCheckbox--active"
+        key="1"
+      >
+        <div
+          className="InputCheckbox__container MyInputCheckbox__container"
+        >
+          <InputCheckboxItemWrapper
+            className="InputCheckbox__item MyInputCheckbox__item"
+            disabled={false}
+            label="Hi"
+            name="mycheckbox"
+            onBlur={[Function]}
+            onChange={[Function]}
+            option={1}
+            type="checkbox"
+            validationKeys={
+              Object {
+                "required": false,
+                "validationAlert": "",
+                "warningAlert": "",
+              }
+            }
+            value={
+              Object {
+                "1": true,
+                "2": false,
+              }
+            }
+          />
+        </div>
+      </li>
+      <li
+        className="InputCheckbox MyInputCheckbox InputCheckbox--active MyInputCheckbox--active"
+        key="2"
+      >
+        <div
+          className="InputCheckbox__container MyInputCheckbox__container"
+        >
+          <InputCheckboxItemWrapper
+            className="InputCheckbox__item MyInputCheckbox__item"
+            disabled={false}
+            label="Ho"
+            name="mycheckbox"
+            onBlur={[Function]}
+            onChange={[Function]}
+            option={2}
+            type="checkbox"
+            validationKeys={
+              Object {
+                "required": false,
+                "validationAlert": "",
+                "warningAlert": "",
+              }
+            }
+            value={
+              Object {
+                "1": true,
+                "2": false,
+              }
+            }
+          />
+        </div>
+      </li>
+    </div>
+    <div
+      className="InputCheckbox__warningMsg MyInputCheckbox__warningMsg InputCheckbox__mycheckbox__warningMsg MyInputCheckbox__mycheckbox__warningMsg"
+    />
+  </div>
+</ul>
+`;
+
+exports[`InputCheckbox should render the component with a validation alert message 1`] = `
+<ul
+  className="InputCheckbox MyInputCheckbox InputCheckbox__mycheckbox MyInputCheckbox__mycheckbox InputCheckbox__required MyInputCheckbox__required InputCheckbox--alert MyInputCheckbox--alert"
+>
+  <div
+    className="InputCheckbox__label MyInputCheckbox__label "
+  >
+    My Input Label
+    <div
+      className="InputCheckbox__alertMsg MyInputCheckbox__alertMsg InputCheckbox__mycheckbox__alertMsg MyInputCheckbox__mycheckbox__alertMsg"
+    >
+      My validation alert message
+    </div>
+    <div
+      className="InputCheckbox__options MyInputCheckbox__options"
+    >
+      <li
+        className="InputCheckbox MyInputCheckbox "
+        key="1"
+      >
+        <div
+          className="InputCheckbox__container MyInputCheckbox__container"
+        >
+          <InputCheckboxItemWrapper
+            className="InputCheckbox__item MyInputCheckbox__item"
+            disabled={false}
+            label="Hi"
+            name="mycheckbox"
+            onBlur={[Function]}
+            onChange={[Function]}
+            option={1}
+            type="checkbox"
+            validationKeys={
+              Object {
+                "validationAlert": "My validation alert message",
+              }
+            }
+            value={null}
+          />
+        </div>
+      </li>
+      <li
+        className="InputCheckbox MyInputCheckbox "
+        key="2"
+      >
+        <div
+          className="InputCheckbox__container MyInputCheckbox__container"
+        >
+          <InputCheckboxItemWrapper
+            className="InputCheckbox__item MyInputCheckbox__item"
+            disabled={false}
+            label="Ho"
+            name="mycheckbox"
+            onBlur={[Function]}
+            onChange={[Function]}
+            option={2}
+            type="checkbox"
+            validationKeys={
+              Object {
+                "validationAlert": "My validation alert message",
+              }
+            }
+            value={null}
+          />
+        </div>
+      </li>
+    </div>
+    <div
+      className="InputCheckbox__warningMsg MyInputCheckbox__warningMsg InputCheckbox__mycheckbox__warningMsg MyInputCheckbox__mycheckbox__warningMsg"
+    />
+  </div>
+</ul>
+`;
+
+exports[`InputCheckbox should render the component with a warning message 1`] = `
+<ul
+  className="InputCheckbox MyInputCheckbox InputCheckbox__mycheckbox MyInputCheckbox__mycheckbox InputCheckbox__required MyInputCheckbox__required InputCheckbox--alert MyInputCheckbox--alert"
+>
+  <div
+    className="InputCheckbox__label MyInputCheckbox__label "
+  >
+    My Input Label
+    <div
+      className="InputCheckbox__alertMsg MyInputCheckbox__alertMsg InputCheckbox__mycheckbox__alertMsg MyInputCheckbox__mycheckbox__alertMsg"
+    />
+    <div
+      className="InputCheckbox__options MyInputCheckbox__options"
+    >
+      <li
+        className="InputCheckbox MyInputCheckbox "
+        key="1"
+      >
+        <div
+          className="InputCheckbox__container MyInputCheckbox__container"
+        >
+          <InputCheckboxItemWrapper
+            className="InputCheckbox__item MyInputCheckbox__item"
+            disabled={false}
+            label="Hi"
+            name="mycheckbox"
+            onBlur={[Function]}
+            onChange={[Function]}
+            option={1}
+            type="checkbox"
+            validationKeys={
+              Object {
+                "warningAlert": "My warning message",
+              }
+            }
+            value={null}
+          />
+        </div>
+      </li>
+      <li
+        className="InputCheckbox MyInputCheckbox "
+        key="2"
+      >
+        <div
+          className="InputCheckbox__container MyInputCheckbox__container"
+        >
+          <InputCheckboxItemWrapper
+            className="InputCheckbox__item MyInputCheckbox__item"
+            disabled={false}
+            label="Ho"
+            name="mycheckbox"
+            onBlur={[Function]}
+            onChange={[Function]}
+            option={2}
+            type="checkbox"
+            validationKeys={
+              Object {
+                "warningAlert": "My warning message",
+              }
+            }
+            value={null}
+          />
+        </div>
+      </li>
+    </div>
+    <div
+      className="InputCheckbox__warningMsg MyInputCheckbox__warningMsg InputCheckbox__mycheckbox__warningMsg MyInputCheckbox__mycheckbox__warningMsg"
+    >
+      My warning message
+    </div>
+  </div>
+</ul>
+`;

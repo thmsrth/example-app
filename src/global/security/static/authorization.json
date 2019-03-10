@@ -1,0 +1,16 @@
+{
+  "active": true,
+  "exp": 1545192857,
+  "user_name": "thomas",
+  "authorities": [
+    "ROLE_FE_EXAMPLE_LIST",
+    "ROLE_FE_EXAMPLE_DETAIL",
+    "ROLE_FE_EXAMPLE_CREATE",
+    "ROLE_FE_EXAMPLE_EDIT",
+    "ROLE_FE_EXAMPLE_DELETE"
+  ],
+  "client_id": "user",
+  "scope": [
+    "service_api"
+  ]
+}

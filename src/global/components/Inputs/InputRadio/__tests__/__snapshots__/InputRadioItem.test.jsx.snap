@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputRadioItem should render the radio input component correctly and checked 1`] = `
+<div
+  className="InputRadioItem MyInputRadioItem"
+>
+  <label
+    className="InputRadioItem__label MyInputRadioItem__label InputRadioItem__type__label MyInputRadioItem__type__label"
+  >
+    <input
+      checked={true}
+      className="InputRadioItem__input MyInputRadioItem__input InputRadioItem__type__input MyInputRadioItem__type__input"
+      name="type"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="radio"
+      value="EMPLOYEE"
+    />
+    My Radio Item Input Label
+  </label>
+</div>
+`;
+
+exports[`InputRadioItem should render the radio input component correctly but not checked 1`] = `
+<div
+  className="InputRadioItem MyInputRadioItem"
+>
+  <label
+    className="InputRadioItem__label MyInputRadioItem__label InputRadioItem__type__label MyInputRadioItem__type__label"
+  >
+    <input
+      checked={false}
+      className="InputRadioItem__input MyInputRadioItem__input InputRadioItem__type__input MyInputRadioItem__type__input"
+      name="type"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="radio"
+      value="EMPLOYEE"
+    />
+    My Radio Item Input Label
+  </label>
+</div>
+`;

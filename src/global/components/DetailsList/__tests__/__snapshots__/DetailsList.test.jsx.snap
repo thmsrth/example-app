@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailsList should render the component correctly 1`] = `
+<div
+  className="DetailsList __list"
+>
+  <table
+    className="DetailsList__table __table"
+  >
+    <tbody
+      className="DetailsList__tbody __tbody"
+    >
+      <DetailsListItem
+        className="DetailsListItem__property __property DetailsListItem__name __name"
+        key="name"
+        keyProp={
+          Object {
+            "name": "name",
+            "title": "Name:",
+            "type": "text",
+          }
+        }
+        value="Thomas"
+      />
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`DetailsList should render the component correctly with property from other data entity by id 1`] = `
+<div
+  className="DetailsList __list"
+>
+  <table
+    className="DetailsList__table __table"
+  >
+    <tbody
+      className="DetailsList__tbody __tbody"
+    >
+      <DetailsListItem
+        className="DetailsListItem__property __property DetailsListItem__user.username __user.username"
+        key="user.username"
+        keyProp={
+          Object {
+            "name": "user.username",
+            "propertyFromDataKey": "users",
+            "title": "Username:",
+            "type": "text",
+          }
+        }
+        value="My User Name"
+      />
+    </tbody>
+  </table>
+</div>
+`;

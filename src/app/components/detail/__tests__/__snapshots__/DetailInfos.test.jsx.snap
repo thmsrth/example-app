@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailInfos should render the component correctly 1`] = `
+<div
+  className="DetailInfos"
+>
+  <div
+    className="DetailInfos__container"
+  >
+    <div
+      className="DetailInfos__header"
+    >
+      <h3
+        className="DetailInfos__title"
+      >
+        Infos
+      </h3>
+    </div>
+    <DetailsList
+      className="DetailInfos"
+      item={
+        Object {
+          "calories": 266,
+          "createdAt": "2018-10-28T14:48:54.01293",
+          "createdBy": "thomas",
+          "fat": 34,
+          "id": 1,
+          "name": "Pizza",
+          "protein": 0.6,
+          "status": "UNHEALTHY",
+          "updatedAt": null,
+          "updatedBy": null,
+        }
+      }
+      keys={
+        Array [
+          Object {
+            "name": "id",
+            "title": "ID:",
+            "type": "number",
+          },
+          Object {
+            "name": "name",
+            "title": "Name:",
+            "type": "number",
+          },
+          Object {
+            "name": "fat",
+            "title": "Fat",
+            "type": "number",
+          },
+          Object {
+            "name": "protein",
+            "title": "Protein",
+            "type": "number",
+          },
+          Object {
+            "name": "calories",
+            "title": "Calories",
+            "type": "number",
+          },
+          Object {
+            "name": "status",
+            "title": "Status",
+            "type": "text",
+          },
+          Object {
+            "format": "DD/MM/YYYY HH:mm",
+            "name": "createdAt",
+            "title": "Created at",
+            "type": "datetime",
+          },
+          Object {
+            "name": "createdBy",
+            "title": "Created by",
+            "type": "text",
+          },
+          Object {
+            "format": "DD/MM/YYYY HH:mm",
+            "name": "updatedAt",
+            "title": "Updated at",
+            "type": "datetime",
+          },
+          Object {
+            "name": "updatedBy",
+            "title": "Updated by",
+            "type": "text",
+          },
+        ]
+      }
+      propertyFromData={null}
+    />
+  </div>
+</div>
+`;

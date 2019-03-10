@@ -1,0 +1,9 @@
+.FilterClearButton {
+  background-color: var(--action-clear-background-color);
+  margin-left: var(--section-margin);
+}
+
+.FilterClearButton__icon,
+.FilterClearButton__text {
+  color: var(--action-clear-color);
+}

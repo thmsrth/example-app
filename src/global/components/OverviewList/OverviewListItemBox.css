@@ -1,0 +1,7 @@
+.OverviewListItemBox__actions {
+  display: inline-flex;
+}
+
+.OverviewListItemBox__actions .OverviewListItemBoxValue {
+  margin: 0;
+}

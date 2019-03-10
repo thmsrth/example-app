@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown should render the component correctly while active 1`] = `
+<div
+  className="Dropdown MyDropdown Dropdown--active MyDropdown--active"
+>
+  <div
+    className="Dropdown__container MyDropdown__container"
+  >
+    <div
+      className="Dropdown__button MyDropdown__button"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      <div
+        className="Dropdown__text MyDropdown__text"
+      >
+        MyText
+      </div>
+      <div
+        className="Dropdown__icon MyDropdown__icon"
+      >
+        <Icon
+          className=""
+          name="caret-up"
+        />
+      </div>
+    </div>
+    <div
+      className="Dropdown__content MyDropdown__content"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      <h3>
+        Empty dropdown content
+      </h3>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown should render the component correctly while inactive 1`] = `
+<div
+  className="Dropdown MyDropdown "
+>
+  <div
+    className="Dropdown__container MyDropdown__container"
+  >
+    <div
+      className="Dropdown__button MyDropdown__button"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      <div
+        className="Dropdown__text MyDropdown__text"
+      >
+        MyText
+      </div>
+      <div
+        className="Dropdown__icon MyDropdown__icon"
+      >
+        <Icon
+          className=""
+          name="caret-down"
+        />
+      </div>
+    </div>
+    <div
+      className="Dropdown__content MyDropdown__content"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      <h3>
+        Empty dropdown content
+      </h3>
+    </div>
+  </div>
+</div>
+`;

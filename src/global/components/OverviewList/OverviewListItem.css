@@ -1,0 +1,16 @@
+.OverviewListItem {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.OverviewListItem:hover {
+  background-color: var(--color-brand-secondary);
+}
+
+.OverviewListItem__property {
+  padding: var(--section-padding);
+  text-align: left;
+}
+
+.OverviewListItem__property--secondary {
+  padding: calc(var(--section-padding) / 2) var(--section-padding);
+}

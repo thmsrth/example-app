@@ -1,0 +1,3 @@
+.SwitchContainer__options {
+  padding: calc(var(--section-padding) * 2);
+}

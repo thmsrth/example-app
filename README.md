@@ -2,16 +2,11 @@
 
 This is an sample app to showcase some generic react components I created together with my colleague Arnaud. 
 
-The app works mainly with fake fetches that deliver static data (for login/authentication and the main entity).
-
-For the beers information I used the PUNK API: https://punkapi.com/
-
-To detect the entered language I used the language layer API: https://languagelayer.com/
-
 **Requirements:**
 
-We had to create an administration interface for 20+ microservices. For each microservice a small independent SPA.
-All have the same structure:
+We had to create an administration interface for 20+ microservices.
+For each microservice we had to create an independent SPA.
+All applications have the same structure:
 * List with pagination that can be filtered for the main entity of the microservice.
 * CRUD operations for the main entity.
 * Detail page with additional information displayed (fetched from other services)
@@ -21,8 +16,18 @@ All have the same structure:
 * We created a starter app / bootstrap app to get started quickly (main entity was named “data” in the code to keep it as simple as possible).
 * We created generic components that could be adjusted with key props.
 
+**Additional information**
+The example app works mainly with fake fetches that deliver static data (for login/authentication and the main entity), as the microservices that this app is build for are not available. 
+All CRUD actions will return the same initial data.
+
+For fetching beers information I used the PUNK API: https://punkapi.com/
+
+To detect the entered language in the text field of the "Add" form I used the language layer API: https://languagelayer.com/
+
 
 ## Get Started
+
+`npm install`
 
 `npm start`
 
